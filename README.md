@@ -35,12 +35,15 @@
 
 ## Contents
 
-- [Installer](#installer)
-- [Portable](#portable)
+- [Software](#software)
+	- [Installer](#installer)
+	- [Portable](#portable)
 
 
+## Software
 
-## Installer
+
+### Installer
 
 - [Chromium Stable](https://chromium.woolyss.com/#windows-64-bit-stable-nik) - All stable versions of Chromium made by third-party developers.
 - [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
@@ -49,7 +52,7 @@
 - [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
 
-## Portable
+### Portable
 
 - [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
 
