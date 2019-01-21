@@ -38,7 +38,7 @@
 - [Software](#software)
 	- [Installer](#installer)
 	- [Portable](#portable)
-
+- [Chrome Extension](#chrome-extension)
 
 ## Software
 
@@ -56,6 +56,11 @@
 
 - [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
 
+## Chrome Extension
+
+- [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) - An efficient ad blocker for Chromium.
+- [Iridium for YouTube](https://chrome.google.com/webstore/detail/iridium-for-youtube/gbjmgndncjkjfcnpfhgidhbgokofegbl) - Provides extra functionalities while watching YouTube.
+- [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?hl=en) - Enlarge thumbnails, and show images/videos from links with a mouse hover.
 
 
 
