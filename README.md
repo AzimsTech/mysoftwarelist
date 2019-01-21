@@ -5,9 +5,7 @@
 	<p>
 		<a href="https://www.patreon.com/sindresorhus">My top picks of software I use everyday.</a>
 	</p>
-
-	<br>
-	<br>
+	
 </div>
 
 <!--
