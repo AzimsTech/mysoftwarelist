@@ -51,18 +51,23 @@
 - [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
 - [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
+- [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
 
 ### Portable
 
 - [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
+- [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - A powerfull verison of Task Manager by Microsoft
+- [WizTree](https://antibody-software.com/web/software/software/wiztree-finds-the-files-and-folders-using-the-most-disk-space-on-your-hard-drive/) - Finds the files and folders using the most disk space on your hard drive.
 
 ## Chrome Extension
 
 - [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) - An efficient ad blocker for Chromium.
 - [Iridium for YouTube](https://chrome.google.com/webstore/detail/iridium-for-youtube/gbjmgndncjkjfcnpfhgidhbgokofegbl) - Provides extra functionalities while watching YouTube.
 - [Imagus](https://chrome.google.com/webstore/detail/imagus/immpkjjlgappgfkkfieppnmlhakdmaab?hl=en) - Enlarge thumbnails, and show images/videos from links with a mouse hover.
-
-
+- [Reddit Check](https://chrome.google.com/webstore/detail/reddit-check/mllceaiaedaingchlgolnfiibippgkmj) - Check if current URL is submitted on reddit to avoid reposting it.
+- [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) - fix grammatical errors, typos, definition and more.
+- [WhenX](https://chrome.google.com/webstore/detail/whenx-organize-your-googl/dgafcidlgmbcehokgdeghmfnbpbfhihh) - Adds Timestamp with last visit time beside purple links in Google search.
+- [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne) - Save web content or screen capture directly to Google Drive through a context menu.
 
 
 ## License
