@@ -73,6 +73,10 @@
 
 ## Userscripts
 - [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
+- [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
+- [Colorfull reddit usernames (CRU)](https://greasyfork.org/en/scripts/757-colorfull-reddit-usernames-cru) - Colorizes usernames on reddit comments.
+
+
 
 
 ## Research
