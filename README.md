@@ -56,8 +56,10 @@
 ### Portable
 
 - [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
+- [DriverStore Explorer](https://github.com/lostindark/DriverStoreExplorer) - A simple and powerfull tool for you to manually uninstall the driver you not want.
 - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - A powerfull verison of Task Manager by Microsoft
 - [WizTree](https://antibody-software.com/web/software/software/wiztree-finds-the-files-and-folders-using-the-most-disk-space-on-your-hard-drive/) - Finds the files and folders using the most disk space on your hard drive.
+- [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) - A driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system.
 
 ## Chrome Extension
 
