@@ -45,7 +45,7 @@
 
 ### Installer
 
-- <img src="https://https://chromium.woolyss.com/logo.png" width="16px" height="16px" border="3"> [Chromium Stable](https://chromium.woolyss.com/#windows-64-bit-stable-nik) - All stable versions of Chromium made by third-party developers.
+- <img src="https://chromium.woolyss.com/logo.png" width="16px" height="16px" border="3"> [Chromium Stable](https://chromium.woolyss.com/#windows-64-bit-stable-nik) - All stable versions of Chromium made by third-party developers.
 - [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
 - [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
 - [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
