@@ -28,7 +28,7 @@
 <br>
 
 <p align="center">
-	<sub>Just type <a href="https://awesome.re"><code>awesome.re</code></a> to go here. Check out my <a href="https://blog.sindresorhus.com">blog</a> and follow me on <a href="https://twitter.com/sindresorhus">Twitter</a>.</sub>
+	<sub>The list keeps growing as I discover more. Check out my <a href="https://azimstech.github.io">blog</a> and follow me on <a href="https://twitter.com/azimslives">Twitter</a>.</sub>
 </p>
 <br>
 
