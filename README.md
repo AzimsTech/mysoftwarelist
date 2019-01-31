@@ -69,6 +69,9 @@
 - [WhenX](https://chrome.google.com/webstore/detail/whenx-organize-your-googl/dgafcidlgmbcehokgdeghmfnbpbfhihh) - Adds Timestamp with last visit time beside purple links in Google search.
 - [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne) - Save web content or screen capture directly to Google Drive through a context menu.
 
+## Userscripts
+- [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
+
 
 ## License
 
