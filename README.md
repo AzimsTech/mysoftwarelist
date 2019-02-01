@@ -74,11 +74,12 @@
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.grammarly.com/" width="16px" height="16px"> [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) - fix grammatical errors, typos, definition and more.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.whenx.io/" width="16px" height="16px"> [WhenX](https://chrome.google.com/webstore/detail/whenx-organize-your-googl/dgafcidlgmbcehokgdeghmfnbpbfhihh) - Adds Timestamp with last visit time beside purple links in Google search.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/drive/" width="16px" height="16px"> [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne) - Save web content or screen capture directly to Google Drive through a context menu.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://tampermonkey.net/" width="16px" height="16px"> [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) - Userscript manager for chrome.
 
 ## Userscripts
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [Colorfull reddit usernames (CRU)](https://greasyfork.org/en/scripts/757-colorfull-reddit-usernames-cru) - Colorizes usernames on reddit comments.
+- <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Colorfull reddit usernames (CRU)](https://greasyfork.org/en/scripts/757-colorfull-reddit-usernames-cru) - Colorizes usernames on reddit comments.
 
 
 
