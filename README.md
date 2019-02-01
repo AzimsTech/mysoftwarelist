@@ -39,6 +39,8 @@
 	- [Installer](#installer)
 	- [Portable](#portable)
 - [Chrome Extension](#chrome-extension)
+- [Userscripts](#userscripts)
+- [Research](#research)
 
 ## Software
 
@@ -85,6 +87,6 @@
 
 
 ## Research
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [Awesome list](https://github.com/sindresorhus/awesome#readme) - by [@sindresorhus](https://github.com/sindresorhus)
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [Userscrips](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=" width="16px" height="16px"> [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
+- [Awesome list](https://github.com/sindresorhus/awesome#readme) - by [@sindresorhus](https://github.com/sindresorhus)
+- [Userscrips](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
+- [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
