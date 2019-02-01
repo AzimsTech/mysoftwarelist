@@ -52,6 +52,7 @@
 - [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
 - [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
+- [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
 
 ### Portable
 
@@ -60,6 +61,9 @@
 - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - A powerfull verison of Task Manager by Microsoft
 - [WizTree](https://antibody-software.com/web/software/software/wiztree-finds-the-files-and-folders-using-the-most-disk-space-on-your-hard-drive/) - Finds the files and folders using the most disk space on your hard drive.
 - [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) - A driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system.
+- [ShareX](https://github.com/ShareX/ShareX/releases) - A very powerful open source screen capture program.
+
+
 
 ## Chrome Extension
 
