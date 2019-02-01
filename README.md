@@ -47,7 +47,7 @@
 
 - <img src="https://chromium.woolyss.com/logo.png" width="16px" height="16px"> [Chromium Stable](https://chromium.woolyss.com/#windows-64-bit-stable-nik) - All stable versions of Chromium made by third-party developers.
 - <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
-- [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
+- <img src="https://notepad-plus-plus.org/assets/images/favicon.ico" width="16px" height="16px"> [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
 - [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
 - [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
