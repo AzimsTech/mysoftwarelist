@@ -50,7 +50,7 @@
 - <img src="https://notepad-plus-plus.org/assets/images/favicon.ico" width="16px" height="16px"> [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
 - <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px"> [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.internetdownloadmanager.com/" width="16px" height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
-- <img src="https://github.com/henrypp/simplewall/blob/master/src/res/100.ico" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
+- <img src="https://raw.githubusercontent.com/henrypp/simplewall/master/src/res/100.ico" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.autohotkey.com" width="16px" height="16px"> [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://store.steampowered.com" width="16px" height="16px"> [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
 
