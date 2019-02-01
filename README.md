@@ -49,7 +49,7 @@
 - <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
 - <img src="https://notepad-plus-plus.org/assets/images/favicon.ico" width="16px" height="16px"> [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
 - <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px"> [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
-- <img src="" width="16px" height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.internetdownloadmanager.com/" width="16px" height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - <img src="" width="16px" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
 - <img src="" width="16px" height="16px"> [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
 - <img src="" width="16px" height="16px"> [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
