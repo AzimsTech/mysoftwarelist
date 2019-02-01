@@ -64,6 +64,7 @@
 - <img src="https://antibody-software.com/images/wiztreeicon80x80.png" width="16px" height="16px"> [WizTree](https://antibody-software.com/web/software/software/wiztree-finds-the-files-and-folders-using-the-most-disk-space-on-your-hard-drive/) - Finds the files and folders using the most disk space on your hard drive.
 - <img src="https://raw.githubusercontent.com/Wagnard/display-drivers-uninstaller/WPF/display-driver-uninstaller/Display%20Driver%20Uninstaller/Resources/DDU.ico" width="16px" height="16px"> [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) - A driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://getsharex.com/" width="16px" height="16px"> [ShareX](https://github.com/ShareX/ShareX/releases) - A very powerful open source screen capture program.
+- <img src="https://raw.githubusercontent.com/Saki-EU/XiaomiADBFastbootTools/master/src/main/resources/icon.png" width="16px" height="16px"> [Xiaomi ADB/Fastboot Tools](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot.
 
 
 
