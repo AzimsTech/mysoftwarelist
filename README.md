@@ -17,6 +17,7 @@
 <br>
 -->
 
+<!--
 <p align="center">
 	<a href="awesome.md">Homepage</a>&nbsp;&nbsp;&nbsp;
 	<a href="contributing.md">List repo</a>&nbsp;&nbsp;&nbsp;
@@ -26,6 +27,7 @@
 </p>
 
 <br>
+-->
 
 <p align="center">
 	<sub>The list keeps growing as I discover more. Check out my <a href="https://azimstech.github.io">blog</a> and follow me on <a href="https://twitter.com/azimslives">Twitter</a>.</sub>
