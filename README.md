@@ -67,6 +67,8 @@
 - <img src="https://raw.githubusercontent.com/Wagnard/display-drivers-uninstaller/WPF/display-driver-uninstaller/Display%20Driver%20Uninstaller/Resources/DDU.ico" width="16px" height="16px"> [Display Driver Uninstaller](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) - A driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://getsharex.com/" width="16px" height="16px"> [ShareX](https://github.com/ShareX/ShareX/releases) - A very powerful open source screen capture program.
 - <img src="https://raw.githubusercontent.com/Saki-EU/XiaomiADBFastbootTools/master/src/main/resources/icon.png" width="16px" height="16px"> [Xiaomi ADB/Fastboot Tools](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot.
+- <img src="https://www.cpuid.com/medias/images/softwares/hwmonitor.svg" width="16px" height="16px"> [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html) - HWMonitor is a hardware monitoring program;- voltages, temperatures, fans speed.
+- <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" width="16px" height="16px"> [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - Gathers information about cpu, motherboard, ram, bios and more.
 
 
 
