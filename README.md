@@ -69,6 +69,7 @@
 - <img src="https://raw.githubusercontent.com/Saki-EU/XiaomiADBFastbootTools/master/src/main/resources/icon.png" width="16px" height="16px"> [Xiaomi ADB/Fastboot Tools](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot.
 - <img src="https://www.cpuid.com/medias/images/softwares/hwmonitor.svg" width="16px" height="16px"> [HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html) - HWMonitor is a hardware monitoring program;- voltages, temperatures, fans speed.
 - <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" width="16px" height="16px"> [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - Gathers information about cpu, motherboard, ram, bios and more.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://windows-repair-toolbox.com/" width="16px" height="16px"> [Windows Repair Toolbox](https://windows-repair-toolbox.com/) - (Almost) everything you need to repair Windows problems in one small handy tool.
 
 
 
