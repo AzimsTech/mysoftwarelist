@@ -84,6 +84,7 @@
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.whenx.io/" width="16px" height="16px"> [WhenX](https://chrome.google.com/webstore/detail/whenx-organize-your-googl/dgafcidlgmbcehokgdeghmfnbpbfhihh) - Adds Timestamp with last visit time beside purple links in Google search.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/drive/" width="16px" height="16px"> [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne) - Save web content or screen capture directly to Google Drive through a context menu.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://tampermonkey.net/" width="16px" height="16px"> [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) - Userscript manager for chrome.
+- <img src="https://i.imgur.com/4DvR5ip.png" width="16px" height="16px"> [Buster](https://chrome.google.com/webstore/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl) - reCAPTCHA captcha solver just in one click!
 
 ## Userscripts
 - <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
