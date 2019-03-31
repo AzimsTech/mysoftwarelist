@@ -1,9 +1,9 @@
 <div align="center">
-	<img src="https://i.imgur.com/9vud1tn.png" alt="Awesome">
+	<img src="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
 	<br>
 	<br>
 	<p>
-		<a href="https://www.patreon.com/sindresorhus">My top picks of software I use everyday.</a>
+		<a href="https://www.azimstech.github.io">My top picks of software I use everyday.</a>
 	</p>
 	
 </div>
