@@ -94,7 +94,7 @@
 
 ## Android Apps
 - <img src="https://lh3.googleusercontent.com/-ISn3ZUVPTDFLogmmQAhmkVeLj6V6m5bmLAHu0IrS_ZmNwgRDIiVZLZI4-bxppjd-BtT=s180-rw" width="16px" height="16px"> [CPL (Customized Pixel Launcher)](https://play.google.com/store/apps/details?id=ru.whatau.cpl) - A Launcher3 fork from a Russian developer in 4pda.ru forums.
-- <img src="https://labs-public-dl.xda-cdn.com/images/137bc806-f19f-4579-8213-f94d9efb93da.png" width="16px" height="16px"> [MiXplorer](https://mixplorer.com/) - A fully featured Android file manager.
+- <img src="https://labs-public-dl.xda-cdn.com/images/137bc806-f19f-4579-8213-f94d9efb93da.png" width="16px" height="16px"> [MiXplorer](https://mixplorer.com/) - A fully featured Android file manager. <sup>( [My Review](https://azimstech.github.io/posts/2019-04-02-this-is-why-i-stopped-using-the-google-drive-app/) )</sup>
 - <img src="https://raw.githubusercontent.com/AdAway/AdAway/master/app/src/main/res/mipmap-mdpi/icon.png" width="16px" height="16px"> [AdAway](https://f-droid.org/packages/org.adaway/) - AdAway is an open source ad blocker for Android using the hosts file.
 - <img src="https://lh3.googleusercontent.com/GF71STDEmTKhbEexCYbePXAjYym_ee8E6WR7_R8jr5_Xf10jfL0Kibkjfl33zDrJBw=s180-rw" width="16px" height="16px"> [Boost for reddit (Beta)](https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&hl=en) - A customizable Reddit mobile app.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.vanced.app" width="16px" height="16px"> [YouTube Vanced](https://vanced.app/) - YouTube Vanced is a modded version of YouTube with few unique features such as Amoled theme and background playback.
