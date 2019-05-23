@@ -42,6 +42,7 @@
 	- [Portable](#portable)
 - [Chrome Extension](#chrome-extension)
 - [Userscripts](#userscripts)
+- [Android Apps](#android-apps)
 - [Research](#research)
 
 ## Software
