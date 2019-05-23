@@ -91,10 +91,19 @@
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Colorfull reddit usernames (CRU)](https://greasyfork.org/en/scripts/757-colorfull-reddit-usernames-cru) - Colorizes usernames on reddit comments.
 
-
-
+## Android Apps
+- <img src="https://lh3.googleusercontent.com/-ISn3ZUVPTDFLogmmQAhmkVeLj6V6m5bmLAHu0IrS_ZmNwgRDIiVZLZI4-bxppjd-BtT=s180-rw" width="16px" height="16px"> [CPL (Customized Pixel Launcher)](https://play.google.com/store/apps/details?id=ru.whatau.cpl) - A Launcher3 fork from a Russian developer in 4pda.ru forums.
+- <img src="https://labs-public-dl.xda-cdn.com/images/137bc806-f19f-4579-8213-f94d9efb93da.png" width="16px" height="16px"> [MiXplorer](https://mixplorer.com/) - A fully featured Android file manager.
+- <img src="https://f-droid.org/repo/org.adaway/en/icon.png" width="16px" height="16px"> [AdAway](https://f-droid.org/packages/org.adaway/) - AdAway is an open source ad blocker for Android using the hosts file.
+- <img src="https://lh3.googleusercontent.com/GF71STDEmTKhbEexCYbePXAjYym_ee8E6WR7_R8jr5_Xf10jfL0Kibkjfl33zDrJBw=s180-rw" width="16px" height="16px"> [Boost for reddit (Beta)](https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&hl=en) - A customizable Reddit mobile app.
+- <img src="ttp://s2.googleusercontent.com/s2/favicons?domain_url=https://www.vanced.app" width="16px" height="16px"> [YouTube Vanced](https://vanced.app/) - YouTube Vanced is a modded version of YouTube with few unique features such as Amoled theme and background playback.
+- <img src="https://lh3.googleusercontent.com/gRRCR6kTFi0kYQH2Gj6L5iAhJS0gUA034AbcRmVipwHL1a_OhvvhMF1UzCWWVo0SDCKS=s180-rw" width="16px" height="16px"> [NetMonster](https://play.google.com/store/apps/details?id=cz.mroczis.netmonster) -  Mobile network monitoring app which shows detailed information about celluar networks.
+- <img src="https://lh3.googleusercontent.com/XDUGlucYcWXmC5i_0CT6VKsXWSIf7DKbI4eVhFJnBa35tK6DtdpoE9tD4J9baKaP7w=s180-rw" width="16px" height="16px"> [Skit](https://play.google.com/store/apps/details?id=com.pavelrekun.skit) - A well designed application manager for Android.
+- <img src="https://lh3.googleusercontent.com/1TanYJs_HlZ0g_MczOnWeY4JBljwYxpfM_DIihOHjF45A6S83RzAxUgui1wy2E3M1Q=s180-rw" width="16px" height="16px"> [Castro](https://play.google.com/store/apps/details?id=com.itemstudio.castro) - Gathers real-time information about your Android phone hardware & software.
+- <img src="https://lh3.googleusercontent.com/HPc5gptPzRw3wFhJE1ZCnTqlvEvuVFBAsV9etfouOhdRbkp-zNtYTzKUmUVPERSZ_lAL=s180-rw" width="16px" height="16px"> [Google Authenticator
+](https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2) - A  2FA code generator from google.
 
 ## Research
 - [Awesome list](https://github.com/sindresorhus/awesome#readme) - by [@sindresorhus](https://github.com/sindresorhus)
-- [Userscrips](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
+- [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
