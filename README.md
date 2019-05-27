@@ -8,6 +8,11 @@
 	
 </div>
 
+## Want to save time? Do yourself a favor and install Chocolatey!
+Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
+So installing Chocolatey is going to be what I do when set up windows for the first time.
+
+
 <!--
 <p align="center">
 	<b>✨ Prelaunching the <a href="https://awesomeweekly.co">Awesome Weekly</a> newsletter! ✨</b>
@@ -34,6 +39,16 @@
 </p>
 <br>
 
+### Installing Chocolatey
+Run the following command in **Powershell**: 
+~~~
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+~~~
+
+To install Chocolatey GUI, run the following command:
+~~~
+choco install chocolateygui -y
+~~~
 
 ## Contents
 
