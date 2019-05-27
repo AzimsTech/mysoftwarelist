@@ -8,10 +8,6 @@
 	
 </div>
 
-## Want to save time? Do yourself a favor and install Chocolatey!
-Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
-So installing Chocolatey is going to be what I do when set up windows for the first time.
-
 
 <!--
 <p align="center">
@@ -38,6 +34,10 @@ So installing Chocolatey is going to be what I do when set up windows for the fi
 	<sub>The list keeps growing as I discover more. Check out my <a href="https://azimstech.github.io">blog</a> and follow me on <a href="https://twitter.com/azimslives">Twitter</a>.</sub>
 </p>
 <br>
+
+## Want to save time? Do yourself a favor and install Chocolatey!
+Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
+So installing Chocolatey is going to be what I do when set up windows for the first time.
 
 ### Installing Chocolatey
 Run the following command in **Powershell**: 
