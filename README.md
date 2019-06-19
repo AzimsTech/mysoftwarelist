@@ -101,6 +101,14 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/drive/" width="16px" height="16px"> [Save to Google Drive](https://chrome.google.com/webstore/detail/save-to-google-drive/gmbmikajjgmnabiglmofipeabaddhgne) - Save web content or screen capture directly to Google Drive through a context menu.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://tampermonkey.net/" width="16px" height="16px"> [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) - Userscript manager for chrome.
 - <img src="https://i.imgur.com/4DvR5ip.png" width="16px" height="16px"> [Buster ](https://chrome.google.com/webstore/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl) - reCAPTCHA captcha solver just in one click! <sup>( [My Review](https://azimstech.github.io/posts/2019-04-01-buster-solve-recaptcha-with-just-one-click/) )</sup>
+- <img src="https://raw.githubusercontent.com/ken107/read-aloud/master/img/icon-48.png" width="16px" height="16px"> [Read Aloud](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp) - An open source multi language text-to-speech voice reader.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [Universal Bypass](https://chrome.google.com/webstore/detail/universal-bypass/aihomhdbhpnpmcnnbckjjcebjoikpihj) - Bypass annyoing websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://universal-bypass.org/example-links)).
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://bitwarden.com/" width="16px" height="16px"> [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - Free cloud-backed password manager that doesn't suck.
+
+<!--- TEMPLATE 
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=websiteURL" width="16px" height="16px"> [extension](extensionURL) - description
+ --->
+
 
 ## Userscripts
 - <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
