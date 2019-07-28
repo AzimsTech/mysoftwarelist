@@ -104,8 +104,6 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/ken107/read-aloud/master/img/icon-48.png" width="16px" height="16px"> [Read Aloud](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp) - An open source multi language text-to-speech voice reader.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [Universal Bypass](https://chrome.google.com/webstore/detail/universal-bypass/aihomhdbhpnpmcnnbckjjcebjoikpihj) - Bypass annyoing websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://universal-bypass.org/example-links)).
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://bitwarden.com/" width="16px" height="16px"> [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - Free cloud-backed password manager that doesn't suck.
-- <img src="https://raw.githubusercontent.com/sh0cked/joy-proxy/master/src/assets/icons/icon48-active.png" width="16px" height="16px"> [JoyProxy](https://chrome.google.com/webstore/detail/joyproxy/cfdjgedemlfeincnkcmhegbgkicofekg) - A very cool browser extension for managing proxy.
-
 
 <!--- TEMPLATE 
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=websiteURL" width="16px" height="16px"> [extension](extensionURL) - description
