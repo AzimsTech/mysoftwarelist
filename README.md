@@ -105,6 +105,7 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/ken107/read-aloud/master/img/icon-48.png" width="16px" height="16px"> [Read Aloud](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp) - An open source multi language text-to-speech voice reader.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [Universal Bypass](https://chrome.google.com/webstore/detail/universal-bypass/aihomhdbhpnpmcnnbckjjcebjoikpihj) - Bypass annyoing websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://universal-bypass.org/example-links)).
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://bitwarden.com/" width="16px" height="16px"> [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - Free cloud-backed password manager that doesn't suck.
+- <img src="https://lh3.googleusercontent.com/vkdVJkr8e5ARyx8qDADvfDmZgdUKkcyhrbKjFYaRWMzDTRO0sosh9RKBUjgAM4bRlSCfX2J6sA=w128-h128-e365" width="16px" height="16px"> [Picture-in-Picture Extension (by Google)](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg) - Enable PIP mode without needing a button in the video player. Perfect for Twitch.tv.
 
 <!--- TEMPLATE 
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=websiteURL" width="16px" height="16px"> [extension](extensionURL) - description
