@@ -88,7 +88,7 @@ choco install chocolateygui -y
 - <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" width="16px" height="16px"> [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - Gathers information about cpu, motherboard, ram, bios and more.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://windows-repair-toolbox.com/" width="16px" height="16px"> [Windows Repair Toolbox](https://windows-repair-toolbox.com/) - (Almost) everything you need to repair Windows problems in one small handy tool.
 - <img src="https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png" width="16px" height="16px"> [Rufus](https://github.com/pbatard/rufus) - A simple tool for creating bootable USB.
-
+- <img src="https://github.com/tonikelope/megabasterd/blob/master/src/main/resources/images/pica_roja_big.png" width="16px" height="16px"> [Megabasterd](https://github.com/tonikelope/megabasterd) - An unofficial Mega.nz downloader with proxy built-in for bypassing the free account download limit. 
 
 
 ## Chrome Extension
