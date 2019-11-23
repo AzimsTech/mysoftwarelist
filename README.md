@@ -90,6 +90,8 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png" width="16px" height="16px"> [Rufus](https://github.com/pbatard/rufus) - A simple tool for creating bootable USB.
 - <img src="https://github.com/tonikelope/megabasterd/blob/master/src/main/resources/images/pica_roja_big.png" width="16px" height="16px"> [Megabasterd](https://github.com/tonikelope/megabasterd) - An unofficial Mega.nz downloader with proxy built-in for bypassing the free account download limit. 
 - <img src="https://www.chuyu.me/images/logo.png" width="16px" height="16px"> [Dism ++](https://www.chuyu.me/en/index.html) -  A powerful tool for managing Windows.
+- <img src="https://raw.githubusercontent.com/ChrisAnd1998/FalconX-Center-Taskbar/master/FalconX4/FalconX48.ico" width="16px" height="16px"> [FalconX-Center-Taskbar](https://github.com/ChrisAnd1998/FalconX-Center-Taskbar) -  Customize taskbar icon position to the center + cool animations.
+
 
 ## Chrome Extension
 
