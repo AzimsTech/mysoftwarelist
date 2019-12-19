@@ -1,3 +1,4 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
 <div align="center">
 	<img src="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
 	<br>
@@ -108,6 +109,7 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [Universal Bypass](https://chrome.google.com/webstore/detail/universal-bypass/aihomhdbhpnpmcnnbckjjcebjoikpihj) - Bypass annyoing websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://universal-bypass.org/example-links)).
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://bitwarden.com/" width="16px" height="16px"> [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - Free cloud-backed password manager that doesn't suck.
 - <img src="https://lh3.googleusercontent.com/vkdVJkr8e5ARyx8qDADvfDmZgdUKkcyhrbKjFYaRWMzDTRO0sosh9RKBUjgAM4bRlSCfX2J6sA=w128-h128-e365" width="16px" height="16px"> [Picture-in-Picture Extension (by Google)](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg) - Enable PIP mode without needing a button in the video player. Perfect for Twitch.tv.
+- <img src="https://lh3.googleusercontent.com/sEwW92PNO8yx39NspIzhuCSSXgk3jur8xF0ZRKNZnIHM90ux467KRK5d8SJxT-rxYG0J9pKB=w128-h128-e365" width="16px" height="16px"> [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb) - Get 3rd-party twich emotes support and tons of customization. 
 
 <!--- TEMPLATE 
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=websiteURL" width="16px" height="16px"> [extension](extensionURL) - description
