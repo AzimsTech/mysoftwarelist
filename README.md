@@ -75,6 +75,7 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.autohotkey.com" width="16px" height="16px"> [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://store.steampowered.com" width="16px" height="16px"> [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
 - <img src="https://raw.githubusercontent.com/microsoft/PowerToys/master/src/runner/svgs/icon.ico" width="16px" height="16px"> [PowerToys](https://github.com/microsoft/PowerToys) - Windows system utilities by Microsoft. I use FancyZone feature a lot.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://adoptopenjdk.net/" width="16px" height="16px"> [AdoptOpenJDK](https://adoptopenjdk.net/) - Prebuilt OpenJDK binaries maintained by community
 
 ### Portable
 
