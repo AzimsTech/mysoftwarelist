@@ -68,7 +68,7 @@ choco install chocolateygui -y
 
 - <img src="https://chromium.woolyss.com/logo.png" width="16px" height="16px"> [Chromium Stable](https://chromium.woolyss.com/#windows-64-bit-stable-nik) - All stable versions of Chromium made by third-party developers.
 - <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
-- <img src="https://notepad-plus-plus.org/assets/images/favicon.ico" width="16px" height="16px"> [Notepad++](https://notepad-plus-plus.org/download/v7.6.2.html) - An open source code editor.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://code.visualstudio.com/" width="16px" height="16px"> [Visual Studio Code](https://code.visualstudio.com/) - An advanced code editor with IntelliSense.
 - <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px"> [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.internetdownloadmanager.com/" width="16px" height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
 - <img src="https://raw.githubusercontent.com/henrypp/simplewall/master/src/res/100.ico" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
@@ -76,6 +76,7 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://store.steampowered.com" width="16px" height="16px"> [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
 - <img src="https://raw.githubusercontent.com/microsoft/PowerToys/master/src/runner/svgs/icon.ico" width="16px" height="16px"> [PowerToys](https://github.com/microsoft/PowerToys) - Windows system utilities by Microsoft. I use FancyZone feature a lot.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://adoptopenjdk.net/" width="16px" height="16px"> [AdoptOpenJDK](https://adoptopenjdk.net/) - Prebuilt OpenJDK binaries maintained by community.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.voidtools.com/" width="16px" height="16px"> [Everything](https://www.voidtools.com/) - A simple and fast file search utility.
 
 ### Portable
 
