@@ -66,7 +66,7 @@ choco install chocolateygui -y
 
 ### Installer
 
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/chrome/" width="16px" height="16px"> [Google Chrome](https://cloud.google.com/chrome-enterprise/browser/download/?h1=en) - The most widely used Web browser
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/chrome/" width="16px" height="16px"> [Google Chrome](https://cloud.google.com/chrome-enterprise/browser/download/?h1=en) - The most widely used Web browser.
 - <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://code.visualstudio.com/" width="16px" height="16px"> [Visual Studio Code](https://code.visualstudio.com/) - An advanced code editor with IntelliSense.
 - <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px"> [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
@@ -89,7 +89,6 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://getsharex.com/" width="16px" height="16px"> [ShareX](https://github.com/ShareX/ShareX/releases) - A very powerful open source screen capture program.
 - <img src="https://raw.githubusercontent.com/Saki-EU/XiaomiADBFastbootTools/master/src/main/resources/icon.png" width="16px" height="16px"> [Xiaomi ADB/Fastboot Tools](https://github.com/Saki-EU/XiaomiADBFastbootTools/releases) - A simple tool for managing Xiaomi devices on desktop using ADB and Fastboot.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.hwinfo.com/" width="16px" height="16px"> [HWiNFO](https://www.hwinfo.com/download/) - a comprehensive hardware monitoring program.
-- <img src="https://www.cpuid.com/medias/images/softwares/cpu-z.svg" width="16px" height="16px"> [CPU-Z](https://www.cpuid.com/softwares/cpu-z.html) - Gathers information about cpu, motherboard, ram, bios and more.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://windows-repair-toolbox.com/" width="16px" height="16px"> [Windows Repair Toolbox](https://windows-repair-toolbox.com/) - (Almost) everything you need to repair Windows problems in one small handy tool.
 - <img src="https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png" width="16px" height="16px"> [Rufus](https://github.com/pbatard/rufus) - A simple tool for creating bootable USB.
 - <img src="https://github.com/tonikelope/megabasterd/blob/master/src/main/resources/images/pica_roja_big.png" width="16px" height="16px"> [Megabasterd](https://github.com/tonikelope/megabasterd) - An unofficial Mega.nz downloader with proxy built-in for bypassing the free account download limit. 
