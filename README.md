@@ -77,6 +77,7 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/microsoft/PowerToys/master/src/runner/svgs/icon.ico" width="16px" height="16px"> [PowerToys](https://github.com/microsoft/PowerToys) - Windows system utilities by Microsoft. I use FancyZone feature a lot.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://adoptopenjdk.net/" width="16px" height="16px"> [AdoptOpenJDK](https://adoptopenjdk.net/) - Prebuilt OpenJDK binaries maintained by community.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.voidtools.com/" width="16px" height="16px"> [Everything](https://www.voidtools.com/) - A simple and fast file search utility.
+- <img src="https://raw.githubusercontent.com/bleachbit/bleachbit/master/bleachbit.png" width="16px" height="16px"> [BleachBit](https://www.bleachbit.org/) - A good opensource alternative to CCleaner.
 
 ### Portable
 
