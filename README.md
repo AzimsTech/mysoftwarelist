@@ -95,6 +95,7 @@ choco install chocolateygui -y
 - <img src="https://www.chuyu.me/images/logo.png" width="16px" height="16px"> [Dism ++](https://www.chuyu.me/en/index.html) -  A powerful tool for managing Windows.
 - <img src="https://raw.githubusercontent.com/ChrisAnd1998/FalconX-Center-Taskbar/master/FalconX4/FalconX48.ico" width="16px" height="16px"> [FalconX-Center-Taskbar](https://github.com/ChrisAnd1998/FalconX-Center-Taskbar) -  Customize taskbar icon position to the center + cool animations.
 - <img src="https://raw.githubusercontent.com/thelucifermorningstar/SMLoadr-AUX/master/favicon.ico" width="16px" height="16px"> [SMLoadr-AUX](https://github.com/thelucifermorningstar/SMLoadr-AUX) - A graphical frontend for SMLoadr.
+- <img src="https://raw.githubusercontent.com/randyrants/sharpkeys/master/SharpKeys/App.ico" width="16px" height="16px"> [SharpKeys](https://github.com/randyrants/sharpkeys) - A simple tool to remap keys on Windows.
 
 
 ## Chrome Extension
