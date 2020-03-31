@@ -78,6 +78,8 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://adoptopenjdk.net/" width="16px" height="16px"> [AdoptOpenJDK](https://adoptopenjdk.net/) - Prebuilt OpenJDK binaries maintained by community.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.voidtools.com/" width="16px" height="16px"> [Everything](https://www.voidtools.com/) - A simple and fast file search utility.
 - <img src="https://raw.githubusercontent.com/bleachbit/bleachbit/master/bleachbit.png" width="16px" height="16px"> [BleachBit](https://www.bleachbit.org/) - A good opensource alternative to CCleaner.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://www.e7z.org/" width="16px" height="16px"> [Easy 7-Zip
+](http://www.e7z.org/) -  A fork of 7-Zip with a few additional quality-of-life features.
 
 ### Portable
 
