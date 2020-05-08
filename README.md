@@ -99,7 +99,8 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/thelucifermorningstar/SMLoadr-AUX/master/favicon.ico" width="16px" height="16px"> [SMLoadr-AUX](https://github.com/thelucifermorningstar/SMLoadr-AUX) - A graphical frontend for SMLoadr.
 - <img src="https://raw.githubusercontent.com/randyrants/sharpkeys/master/SharpKeys/App.ico" width="16px" height="16px"> [SharpKeys](https://github.com/randyrants/sharpkeys) - A simple tool to remap keys on Windows.
 - <img src="https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/master/favicon.png" width="16px" height="16px"> [YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) - The cleanest Youtube downloader I found. 
-
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.sordum.org/" width="16px" height="16px"> [Firewall App Blocker (Fab)](https://www.sordum.org/8125/) - Easy-to-use firewall management sofware by Sordum.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.ocbase.com/" width="16px" height="16px"> [OCCT](https://www.sordum.org/8125/) - All-in-one hardware monitor for overclockers.
 
 ## Chrome Extension
 
