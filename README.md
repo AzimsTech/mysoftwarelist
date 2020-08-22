@@ -101,6 +101,8 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/master/favicon.png" width="16px" height="16px"> [YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) - The cleanest Youtube downloader I found. 
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.sordum.org/" width="16px" height="16px"> [Firewall App Blocker (Fab)](https://www.sordum.org/8125/) - Easy-to-use firewall management sofware by Sordum.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.ocbase.com/" width="16px" height="16px"> [OCCT](https://www.sordum.org/8125/) - All-in-one hardware monitor for overclockers.
+- 🧰 [Policy Plus
+](https://github.com/Fleex255/PolicyPlus) - An improved Group Policy editor.
 
 ## Chrome Extension
 
