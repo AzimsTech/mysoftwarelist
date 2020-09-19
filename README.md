@@ -36,7 +36,7 @@
 </p>
 <br>
 
-## Want to save time? Do yourself a favor and install Chocolatey!
+## Want to save time? Do yourself a favor and install Chocolatey! <img src="https://cdn.rawgit.com/chocolatey/choco/14a627932c78c8baaba6bef5f749ebfa1957d28d/docs/logo/chocolateyicon.gif" height="43px">
 Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
 So installing Chocolatey is going to be what I do when set up windows for the first time.
 
