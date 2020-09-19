@@ -41,7 +41,8 @@ Chocolatey is a package manager for Windows. Having a package manager, makes ins
 So installing Chocolatey is going to be what I do when set up windows for the first time.
 
 <details>
-	<summary>Installing Chocolatey: </summary>
+<p>
+	<summary>Installing Chocolatey (Click to expand):</summary>
 	
 Run the following command in **Powershell**: 
 ~~~
