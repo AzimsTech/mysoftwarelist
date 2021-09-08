@@ -89,7 +89,7 @@ choco install chocolateygui -y
 
 ### Portable
 
-- <img src="https://raw.githubusercontent.com/DavidXanatos/wumgr/master/wumgr/wu.ico" width="16px" height="16px"> [WHDownloader](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
+- <img src="https://raw.githubusercontent.com/DavidXanatos/wumgr/master/wumgr/wu.ico" width="16px" height="16px"> [WHDownloader](https://forums.mydigitallife.net/threads/whdownloader-download.66243/) - Windows update managemetn tool for windows 10.
 - <img src="https://raw.githubusercontent.com/DavidXanatos/wumgr/master/wumgr/wu.ico" width="16px" height="16px"> [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
 - <img src="https://raw.githubusercontent.com/lostindark/DriverStoreExplorer/master/Rapr/icon.ico" width="16px" height="16px"> [DriverStore Explorer](https://github.com/lostindark/DriverStoreExplorer) - A simple and powerfull tool for you to manually uninstall the driver you not want.
 - <img src="https://raw.githubusercontent.com/maciakl/Setup-Assistant/master/icons/new/procexp.ico" width="16px" height="16px"> [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer) - A powerfull verison of Task Manager by Microsoft
@@ -156,5 +156,5 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMDA4MDA5XX0=
+eyJoaXN0b3J5IjpbLTgxMTE3NTA2M119
 -->
