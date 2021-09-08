@@ -135,6 +135,7 @@ choco install chocolateygui -y
 
 
 ## Userscripts
+- <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Resize Youtube Player To Window Size](https://github.com/Zren/ResizeYoutubePlayerToWindowSize/) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
 - <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Colorfull reddit usernames (CRU)](https://greasyfork.org/en/scripts/757-colorfull-reddit-usernames-cru) - Colorizes usernames on reddit comments.
@@ -156,6 +157,6 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDQ2ODgxNCwtMTg5MzgxNjQ0LC04MT
-ExNzUwNjNdfQ==
+eyJoaXN0b3J5IjpbLTExNzE1MTYwOCwyMDc0NDY4ODE0LC0xOD
+kzODE2NDQsLTgxMTE3NTA2M119
 -->
