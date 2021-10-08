@@ -88,7 +88,7 @@ choco install chocolateygui -y
 ](http://www.e7z.org/) -  A fork of 7-Zip with a few additional quality-of-life features.
 
 ### Portable
-
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://support.microsoft.com/" width="16px" height="16px"> [ NVCleanstall](https://forums.mydigitallife.net/threads/whdownloader-download.66243/) - Lets you customize the NVIDIA GeForce Driver.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://support.microsoft.com/" width="16px" height="16px"> [WHDownloader](https://forums.mydigitallife.net/threads/whdownloader-download.66243/) - Downloads Windows hotfix/security update standalone installer (.msu).
 - <img src="https://raw.githubusercontent.com/DavidXanatos/wumgr/master/wumgr/wu.ico" width="16px" height="16px"> [Windows Update Manager](https://github.com/DavidXanatos/wumgr/releases) - Windows update managemetn tool for windows 10.
 - <img src="https://raw.githubusercontent.com/lostindark/DriverStoreExplorer/master/Rapr/icon.ico" width="16px" height="16px"> [DriverStore Explorer](https://github.com/lostindark/DriverStoreExplorer) - A simple and powerfull tool for you to manually uninstall the driver you not want.
@@ -157,6 +157,7 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTY3NTAyOCwtNDIwODk3NjQ0LDIwNz
-Q0Njg4MTQsLTE4OTM4MTY0NCwtODExMTc1MDYzXX0=
+eyJoaXN0b3J5IjpbLTUwMjcwNDI4NSwxNTcxNjc1MDI4LC00Mj
+A4OTc2NDQsMjA3NDQ2ODgxNCwtMTg5MzgxNjQ0LC04MTExNzUw
+NjNdfQ==
 -->
