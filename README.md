@@ -123,7 +123,7 @@ choco install chocolateygui -y
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://tampermonkey.net/" width="16px" height="16px"> [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) - Userscript manager for chrome.
 - <img src="https://i.imgur.com/4DvR5ip.png" width="16px" height="16px"> [Buster ](https://chrome.google.com/webstore/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl) - reCAPTCHA captcha solver just in one click! <sup>( [My Review](https://azimstech.github.io/posts/2019-04-01-buster-solve-recaptcha-with-just-one-click/) )</sup>
 - <img src="https://raw.githubusercontent.com/ken107/read-aloud/master/img/icon-48.png" width="16px" height="16px"> [Read Aloud](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp) - An open source multi language text-to-speech voice reader.
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [FastForward](https://fastforward.team/) - Bypass annoying websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://universal-bypass.org/example-links)).
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://universal-bypass.org/" width="16px" height="16px"> [FastForward](https://fastforward.team/) - Bypass annoying websites that makes you wait (Adf.ly, Adfoc.us, Shorte.st and [more](https://fastforward.team/example-links)).
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://bitwarden.com/" width="16px" height="16px"> [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - Free cloud-backed password manager that doesn't suck.
 - <img src="https://lh3.googleusercontent.com/vkdVJkr8e5ARyx8qDADvfDmZgdUKkcyhrbKjFYaRWMzDTRO0sosh9RKBUjgAM4bRlSCfX2J6sA=w128-h128-e365" width="16px" height="16px"> [Picture-in-Picture Extension (by Google)](https://chrome.google.com/webstore/detail/picture-in-picture-extens/hkgfoiooedgoejojocmhlaklaeopbecg) - Enable PIP mode without needing a button in the video player. Perfect for Twitch.tv.
 - <img src="https://lh3.googleusercontent.com/sEwW92PNO8yx39NspIzhuCSSXgk3jur8xF0ZRKNZnIHM90ux467KRK5d8SJxT-rxYG0J9pKB=w128-h128-e365" width="16px" height="16px"> [FrankerFaceZ](https://chrome.google.com/webstore/detail/frankerfacez/fadndhdgpmmaapbmfcknlfgcflmmmieb) - Get 3rd-party twich emotes support and tons of customization. 
@@ -157,6 +157,6 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzkzMzQ1NzYsLTQyMDg5NzY0NCwyMD
+eyJoaXN0b3J5IjpbLTE0MTU3MjYzNTAsLTQyMDg5NzY0NCwyMD
 c0NDY4ODE0LC0xODkzODE2NDQsLTgxMTE3NTA2M119
 -->
