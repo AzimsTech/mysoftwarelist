@@ -83,6 +83,7 @@ choco install chocolateygui -y
 - <img src="https://raw.githubusercontent.com/microsoft/PowerToys/master/src/runner/svgs/icon.ico" width="16px" height="16px"> [PowerToys](https://github.com/microsoft/PowerToys) - Windows system utilities by Microsoft. I use FancyZone feature a lot.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://adoptopenjdk.net/" width="16px" height="16px"> [AdoptOpenJDK](https://adoptopenjdk.net/) - Prebuilt OpenJDK binaries maintained by community.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.voidtools.com/" width="16px" height="16px"> [Everything](https://www.voidtools.com/) - A simple and fast file search utility.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.voidtools.com/" width="16px" height="16px"> [EverythingToolbar](https://www.voidtools.com/) - Everything integration for the Windows taskbar.
 - <img src="https://raw.githubusercontent.com/bleachbit/bleachbit/master/bleachbit.png" width="16px" height="16px"> [BleachBit](https://www.bleachbit.org/) - A good opensource alternative to CCleaner.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=http://www.e7z.org/" width="16px" height="16px"> [Easy 7-Zip
 ](http://www.e7z.org/) -  A fork of 7-Zip with a few additional quality-of-life features.
@@ -158,7 +159,7 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk2MTkyNTMsMTU3MTY3NTAyOCwtND
-IwODk3NjQ0LDIwNzQ0Njg4MTQsLTE4OTM4MTY0NCwtODExMTc1
-MDYzXX0=
+eyJoaXN0b3J5IjpbMjAxMDEyNDI2OCwtMTMzOTYxOTI1MywxNT
+cxNjc1MDI4LC00MjA4OTc2NDQsMjA3NDQ2ODgxNCwtMTg5Mzgx
+NjQ0LC04MTExNzUwNjNdfQ==
 -->
