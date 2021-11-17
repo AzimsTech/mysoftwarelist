@@ -137,7 +137,7 @@ choco install chocolateygui -y
 
 
 ## Userscripts
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.youtube.com" width="16px" height="16px"> [Local YouTube Downloader](https://greasyfork.org/en/scripts/369400-local-youtube-downloader) - download YouTube videos **without 3rd-party service**.
+- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.youtube.com" width="16px" height="16px"> [Local YouTube Downloader](https://greasyfork.org/en/scripts/369400-local-youtube-downloader) - Download YouTube videos from video stream.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.youtube.com" width="16px" height="16px"> [Resize Youtube Player To Window Size](https://github.com/Zren/ResizeYoutubePlayerToWindowSize/) - Moves the video to the top of the website and resizes it to the screen size.
 - <img src="https://cdn.adguard.com/public/Userscripts/AdguardPopupBlocker/2.5/assets/128.png" width="16px" height="16px"> [Adguard Popup Blocker](https://github.com/AdguardTeam/PopupBlocker) - A userscript that blocks all unwanted pop-up windows in different browsers made by Adguard.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.reddit.com" width="16px" height="16px"> [Reddit highlight newest comments](https://greasyfork.org/en/scripts/1868-reddit-highlight-newest-comments) - Highlights new comments in a thread since your last visit.
@@ -160,7 +160,7 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTA2OTg4LDE4NjgwMDM1NjIsLTEzMz
-k2MTkyNTMsMTU3MTY3NTAyOCwtNDIwODk3NjQ0LDIwNzQ0Njg4
-MTQsLTE4OTM4MTY0NCwtODExMTc1MDYzXX0=
+eyJoaXN0b3J5IjpbMTgyMTU5NjgxMiwxODY4MDAzNTYyLC0xMz
+M5NjE5MjUzLDE1NzE2NzUwMjgsLTQyMDg5NzY0NCwyMDc0NDY4
+ODE0LC0xODkzODE2NDQsLTgxMTE3NTA2M119
 -->
