@@ -70,6 +70,7 @@ choco install chocolateygui -y
 
 
 ### Installer
+  <label for="vehicle1"> I have a bike</label><br>
 
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/chrome/" width="16px" height="16px"> [Google Chrome](https://cloud.google.com/chrome-enterprise/browser/download/?h1=en) - The most widely used Web browser.
 - <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
@@ -160,7 +161,8 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODAxNTY0MywxODY4MDAzNTYyLC0xMz
-M5NjE5MjUzLDE1NzE2NzUwMjgsLTQyMDg5NzY0NCwyMDc0NDY4
-ODE0LC0xODkzODE2NDQsLTgxMTE3NTA2M119
+eyJoaXN0b3J5IjpbMjA1MDIzMTUzNCwyMDE4MDE1NjQzLDE4Nj
+gwMDM1NjIsLTEzMzk2MTkyNTMsMTU3MTY3NTAyOCwtNDIwODk3
+NjQ0LDIwNzQ0Njg4MTQsLTE4OTM4MTY0NCwtODExMTc1MDYzXX
+0=
 -->
