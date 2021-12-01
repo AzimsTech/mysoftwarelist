@@ -1,6 +1,5 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
-<div align="center">
-	<img src="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
+<div align="center"><img rc="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
 	<br>
 	<br>
 	<p>
@@ -36,7 +35,7 @@
 </p>
 <br>
 
-## Want to save time? Do yourself a favor and install Chocolatey! <img src="https://cdn.rawgit.com/chocolatey/choco/14a627932c78c8baaba6bef5f749ebfa1957d28d/docs/logo/chocolateyicon.gif" height="43px">
+## Want to save time? Do yourself a favor and install Chocolatey! <img src="https://cdn.rawgit.com/chocolatey/choco/14a627932c78c8baaba6bef5f749ebfa1957d28d/docs/logo/chocolateyicon.gif"height="43px">
 Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
 So installing Chocolatey is going to be what I do when set up windows for the first time.
 
@@ -70,13 +69,11 @@ choco install chocolateygui -y
 
 
 ### Installer
-
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/chrome/" width="16px" height="16px"> [Google Chrome](https://cloud.google.com/chrome-enterprise/browser/download/?h1=en) - The most widely used Web browser.
-- <img src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90" width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://code.visualstudio.com/" width="16px" height="16px"> [Visual Studio Code](https://code.visualstudio.com/) - An advanced code editor with IntelliSense.
-- <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px"> [foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
-- <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.internetdownloadmanager.com/" width="16px" height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
-- <img src="https://raw.githubusercontent.com/henrypp/simplewall/master/src/res/100.ico" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
+-<ig src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.google.com/chrome/"width="16px" height="16px"> [Google Chrome](https://cloud.google.com/chrome-enterprise/browser/download/?h1=en) - The most widely used Web browser.-<ig src="https://a.fsdn.com/allura/p/mpcbe/icon?1548646911?&w=90"width="16px" height="16px"> [MPC-BE](https://sourceforge.net/projects/mpcbe/) - A free and open source audio and video player for Windows.
+-<img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://code.visualstudio.com/"width="16px" height="16px"> [Visual Studio Code](https://code.visualstudio.com/) - An advanced code editor with IntelliSense.
+- <img src="https://www.foobar2000.org/favicon.ico" width="16px" height="16px">[foobar2000](https://www.foobar2000.org/download) - An advanced lightweight audio player.
+-<img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.internetdownloadmanager.com/"width="16px"height="16px"> [Internet Download Manager](https://www.internetdownloadmanager.com/download.html) - Fully featured download manager.
+-<img src="https://raw.githubusercontent.com/henrypp/simplewall/master/src/res/100.ico" height="16px"> [Simplewall](https://github.com/henrypp/simplewall/releases) - A simple open source filewall solution.
 - <img src="https://raw.githubusercontent.com/ChrisAnd1998/TaskbarX/master/TaskbarX/TaskbarX/Resources/icon.ico" width="16px" height="16px"> [TaskbarX](https://github.com/ChrisAnd1998/TaskbarX) -  Customize taskbar icon position to the center + cool animations.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.autohotkey.com" width="16px" height="16px"> [AutoHotKey](https://www.autohotkey.com/download/) - Compile and run .ahk automation script on Windows.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://store.steampowered.com" width="16px" height="16px"> [Steam](https://store.steampowered.com/about/) - Because I play dota2 and csgo and nothing else.
@@ -160,8 +157,8 @@ choco install chocolateygui -y
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODAxNTY0MywyMDE4MDE1NjQzLDE4Nj
-gwMDM1NjIsLTEzMzk2MTkyNTMsMTU3MTY3NTAyOCwtNDIwODk3
-NjQ0LDIwNzQ0Njg4MTQsLTE4OTM4MTY0NCwtODExMTc1MDYzXX
-0=
+eyJoaXN0b3J5IjpbLTIwMjI5ODAzNjAsMjAxODAxNTY0MywyMD
+E4MDE1NjQzLDE4NjgwMDM1NjIsLTEzMzk2MTkyNTMsMTU3MTY3
+NTAyOCwtNDIwODk3NjQ0LDIwNzQ0Njg4MTQsLTE4OTM4MTY0NC
+wtODExMTc1MDYzXX0=
 -->
