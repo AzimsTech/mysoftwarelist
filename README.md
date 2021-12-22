@@ -107,7 +107,7 @@ choco install chocolateygui -y
 - <img src="https://www.chuyu.me/images/logo.png" width="16px" height="16px"> [Dism ++](https://www.chuyu.me/en/index.html) -  A powerful tool for managing Windows.
 - <img src="https://raw.githubusercontent.com/thelucifermorningstar/SMLoadr-AUX/master/favicon.ico" width="16px" height="16px"> [SMLoadr-AUX](https://github.com/thelucifermorningstar/SMLoadr-AUX) - A graphical frontend for SMLoadr.
 - <img src="https://raw.githubusercontent.com/randyrants/sharpkeys/master/SharpKeys/App.ico" width="16px" height="16px"> [SharpKeys](https://github.com/randyrants/sharpkeys) - A simple tool to remap keys on Windows.
-- <img src="https://raw.githubusercontent.com/Tyrrrz/YoutubeDownloader/master/favicon.png" width="16px" height="16px"> [YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) - The cleanest Youtube downloader I found. 
+- <img src="https://raw.githubusercontent.com/jely2002/youtube-dl-gui/v2.0.0/renderer/img/icon.png" width="16px" height="16px"> [Open Video Downloader](https://github.com/jely2002/youtube-dl-gui) - An excellent desktop frontend for yt-dlp (youtube-dl fork).
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.sordum.org/" width="16px" height="16px"> [Firewall App Blocker (Fab)](https://www.sordum.org/8125/) - Easy-to-use firewall management sofware by Sordum.
 - <img src="http://s2.googleusercontent.com/s2/favicons?domain_url=https://www.ocbase.com/" width="16px" height="16px"> [OCCT](https://www.sordum.org/8125/) - All-in-one hardware monitor for overclockers.
 - 🧰 [Policy Plus
@@ -160,9 +160,3 @@ choco install chocolateygui -y
 - [Awesome list](https://github.com/sindresorhus/awesome#readme) - by [@sindresorhus](https://github.com/sindresorhus)
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTM2OTUyNiwyMDE4MDE1NjQzLDIwMT
-gwMTU2NDMsMjAxODAxNTY0MywxODY4MDAzNTYyLC0xMzM5NjE5
-MjUzLDE1NzE2NzUwMjgsLTQyMDg5NzY0NCwyMDc0NDY4ODE0LC
-0xODkzODE2NDQsLTgxMTE3NTA2M119
--->
