@@ -1,6 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
 <div align="center">
-	<img src="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
+	<a href="./images/screenshot.webp" ><img src="./images/preview.webp" alt="preview"></a>
 	<br>
 	<br>
 	<p>
