@@ -5,8 +5,9 @@ const packageList = document.querySelector(".package-list");
 var commandsTxt = document.querySelector(".commands-txt");
 var spanSuccess = document.querySelector('.sub-heading');
 const resetBtn = document.querySelector('.reset-btn');
-const form = document.querySelector(".package-form");
 const copyBtn = document.querySelector(".copy-btn");
+const allBtn = document.querySelector(".all-btn");
+const form = document.querySelector(".package-form");
 let jsonPath = "./data/packages.json";
 
 /*
@@ -15,6 +16,7 @@ let jsonPath = "./data/packages.json";
 document.addEventListener("DOMpackageLoaded", fetchJson(jsonPath));
 resetBtn.addEventListener('click', resetForm);
 copyBtn.addEventListener("click", updateClipboard);
+allBtn.addEventListener("click", selectAllPkg);
 form.addEventListener('change', onPackageSelect);
 
 /*
@@ -56,6 +58,15 @@ function updateClipboard(e) {
 
 }
 
+// select all item checkboxes
+function selectAllPkg(e) {
+    e.preventDefault();
+
+    let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
+    chxbox.forEach(node => node.click());
+
+}
+
 // generate chocolatey install commands from checkbox input
 function onPackageSelect(e) {
     e.preventDefault();
@@ -88,11 +99,11 @@ function addListToHtml(ul) {
     fetchJson().then(function(jsonData) {
         for (i in jsonData) {
             // LOCAL VARIABLES
-            let li = document.createElement("li");
             let label = document.createElement("label");
             let input = document.createElement("input");
-            let img = document.createElement("img");
             let span = document.createElement("span");
+            let img = document.createElement("img");
+            let li = document.createElement("li");
 
             // SET ATTRIBUTES
             label.htmlFor = jsonData[i].pkgName; // <label for={jsonData.pkgName}>
@@ -113,11 +124,10 @@ function addListToHtml(ul) {
             li.className = "package-list__item";
 
             // WRITE ELEMENTS
-            li.appendChild(label); // <div><label> <=
-
             label.appendChild(input); // <div><label><input> <=
             label.appendChild(img);
             label.appendChild(span); // write jsonData.name after checkbox
+            li.appendChild(label); // <div><label> <=
             ul.appendChild(li); // li --> label --> input, img
 
         }
