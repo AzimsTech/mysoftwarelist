@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 1rem;
+    padding-bottom: 2em;
+    ;
+    background: #234863;
+}
+
+b {
+    font-weight: 600;
+}
+
+.heading {
+    text-align: center;
+    margin: 1rem;
+    margin-bottom: 0;
+    color: #FFF;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 0.95rem;
+    font-weight: 300;
+    color: #FFF;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.mid-heading {
+    font-size: 85%;
+    max-width: 5%;
+}
+
+main {
+    padding: 1rem;
+    padding-top: 3rem;
+    min-height: 75vh;
+}
+
+.package-form {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.input-group {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input {
+    margin-right: 2rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    color: #555;
+    font-size: 0.95rem;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.input-group .copy-btn {
+    margin-right: 2rem;
+    font-size: 0.95rem;
+    border-radius: 2px;
+}
+
+.copy-btn,
+.reset-btn {
+    padding: 8px 18px;
+    cursor: pointer;
+    border-radius: 2px;
+    background: #0e8a7e;
+    border: 2px solid #024a43;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.copy-btn:hover,
+.reset-btn:hover {
+    background: #009688;
+}
+
+
+/*Floating Back-To-Top Button*/
+
+.btn--top {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    height: 30px;
+    max-width: 90px;
+    width: 100%;
+    font-size: 12px;
+    background: #0e8a7e;
+    border: 2px solid #024a43;
+    padding: .5px;
+    border-radius: 2px;
+}
+
+.btn--top>a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: .5px;
+    margin: .5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*On Hover Color Change*/
+
+.btn--top:hover {
+    background-color: #7dbbf1;
+}
+
+.package-list {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.package-list__item .package-list__label {
+    display: inline-block;
+    background: #efefef;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 5px;
+    padding-left: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.package-list__label:hover {
+    background: lightyellow;
+}
+
+.package-list__label:active {
+    outline: 2px solid #36556d;
+}
+
+.package-list__label>* {
+    margin-right: 5px;
+}
+
+package-list__label-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+label {
+    max-width: 100%;
+    border: 0px solid #ccc;
+}
+
+.package-form {
+    max-width: 100%;
+}
+
+.icoImg {
+    width: 16px;
+}
+
+footer {
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+footer a {
+    color: #0e8a7e;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
