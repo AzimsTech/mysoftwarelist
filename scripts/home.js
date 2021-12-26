@@ -63,7 +63,12 @@ function selectAllPkg(e) {
     e.preventDefault();
 
     let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
-    chxbox.forEach(node => node.click());
+    chxbox.forEach(node => {
+        if (!node.checked) {
+            node.click();
+        }
+
+    });
 
 }
 
