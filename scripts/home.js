@@ -43,12 +43,11 @@ function resetForm(e) {
 function updateClipboard(e) {
     e.preventDefault();
 
-    commandsTxt.select();
-    document.execCommand('copy');
-
     let checkboxItem = document.querySelector('input[name="package-item"]:checked');
 
     if (checkboxItem) {
+        commandsTxt.select();
+        document.execCommand('copy');
         spanSuccess.innerText = "Copied to the clipboard! ✅";
         spanSuccess.style.visiblity = 'initial';
 
@@ -57,7 +56,6 @@ function updateClipboard(e) {
         spanSuccess.innerText = "Please select any packages! ❎";
         spanSuccess.style.visiblity = 'initial';
     }
-
 
 
 }

@@ -2,6 +2,7 @@
 
 ## To-Do Lists
 
+- [ ] Search.
 - [ ] Improve CSS.
 - [ ] Add your own item with Web Storage API.
 - [ ] Dark theme.
