@@ -9,6 +9,10 @@ const copyBtn = document.querySelector(".copy-btn");
 const allBtn = document.querySelector(".all-btn");
 const form = document.querySelector(".package-form");
 let jsonPath = "./data/packages.json";
+const installCmd = `Set-ExecutionPolicy Bypass -Scope Process -Force; 
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
+iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
+
 
 /*
     EVENT LISTENERS
@@ -76,21 +80,27 @@ function selectAllPkg(e) {
 function onPackageSelect(e) {
     e.preventDefault();
     let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
-
+    let checkedValue = null;
 
     chxbox.forEach(() => {
-        let checkedValue =
+        checkedValue =
             Array.from(chxbox)
             .filter(i => i.checked)
             .map(i => i.value);
 
-        commandsTxt.value = `choco install -y ${checkedValue.join(" ")}`;
         spanSuccess.style.visiblity = 'hidden';
+
         if (chxbox[0].checked) {
-            commandsTxt.value = `Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); ` + commandsTxt.value;
+            commandsTxt.value = installCmd;
+            if (checkedValue.length > 1) {
+                commandsTxt.value = installCmd + `choco install -y ${checkedValue.join(" ")}`;
+            }
+        } else {
+            commandsTxt.value = `choco install -y ${checkedValue.join(" ")}`;
         }
 
     });
+
 
 
 }
