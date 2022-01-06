@@ -1,3 +1,11 @@
+# New! Generate chocolatey commands from the apps you've picked
+
+## To-Do Lists
+
+- [] Improve CSS.
+- [ ] Add your own item with Web Storage API.
+- [ ] Dark theme.
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
 <div align="center">
 	<a href="./images/screenshot.webp" ><img src="./images/preview.webp" alt="preview"></a>
