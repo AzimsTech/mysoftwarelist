@@ -2,7 +2,7 @@
 
 ## To-Do Lists
 
-- [] Improve CSS.
+- [ ] Improve CSS.
 - [ ] Add your own item with Web Storage API.
 - [ ] Dark theme.
 
