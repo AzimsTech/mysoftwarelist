@@ -1,4 +1,10 @@
 [{
+        "name": "Chocolatey",
+        "pkgName": null,
+        "icoUrl": "https://community.chocolatey.org/content/packageimages/chocolatey.0.11.3.png",
+        "description": "Install this if this is your first time."
+    },
+    {
         "name": "Google Chrome",
         "pkgName": "googlechrome",
         "icoUrl": "https://community.chocolatey.org/content/packageimages/GoogleChrome.96.0.4664.110.svg",
