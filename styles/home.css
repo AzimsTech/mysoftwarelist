@@ -192,6 +192,12 @@ label {
 footer {
     font-size: 0.95rem;
     text-align: center;
+    width: 100%;
+}
+
+footer,
+p {
+    display: inline-block;
 }
 
 footer a {
