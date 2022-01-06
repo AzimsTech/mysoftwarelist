@@ -12,6 +12,7 @@ let jsonPath = "./data/packages.json";
 const installCmd = `Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
+const iconSrc = "https://community.chocolatey.org/content/packageimages/";
 
 
 /*
@@ -91,6 +92,7 @@ function onPackageSelect(e) {
         if (chxbox[0].checked) {
             commandsTxt.value = installCmd;
             if (checkedValue.length > 1) {
+                checkedValue.shift();
                 commandsTxt.value = installCmd + `choco install -y ${checkedValue.join(" ")}`;
             }
         } else {
@@ -122,7 +124,7 @@ function addListToHtml(ul) {
             let li = document.createElement("li");
 
             // SET ATTRIBUTES
-            label.htmlFor = jsonData[i].pkgName; // <label for={jsonData.pkgName}>
+            label.htmlFor = i // <label for={jsonData.pkgName}>
             span.className = "package-list__label-text"
             label.className = "package-list__label";
             label.title = jsonData[i].description;
@@ -130,9 +132,9 @@ function addListToHtml(ul) {
             input.type = "checkbox";
             input.name = "package-item";
             input.className = "label__checkbox";
-            input.value = jsonData[i].pkgName;
-            input.id = jsonData[i].pkgName;
-            img.src = jsonData[i].icoUrl;
+            input.value = i
+            input.id = i
+            img.src = iconSrc + jsonData[i].icoUrl;
             img.className = "icoImg";
             span.innerHTML = `<b>${jsonData[i].name}</b> - ${jsonData[i].description}`;
 

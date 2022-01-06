@@ -1,193 +1,162 @@
-[{
+{
+    "choco": {
         "name": "Chocolatey",
-        "pkgName": null,
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/chocolatey.0.11.3.png",
+        "icoUrl": "chocolatey.0.11.3.png",
         "description": "Install this if this is your first time."
     },
-    {
+    "googlechrome": {
         "name": "Google Chrome",
-        "pkgName": "googlechrome",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/GoogleChrome.96.0.4664.110.svg",
+        "icoUrl": "GoogleChrome.96.0.4664.110.svg",
         "description": "The most widely used Web browser."
     },
-    {
+    "mpc-be": {
         "name": "MPC-BE",
-        "pkgName": "mpc-be",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/mpc-be.1.5.8.6302.png",
+        "icoUrl": "mpc-be.1.5.8.6302.png",
         "description": "A free and open source audio and video player for Windows"
     },
-    {
+    "vscode": {
         "name": "Visual Studio Code",
-        "pkgName": "vscode",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/vscode.1.63.1.png",
+        "icoUrl": "vscode.1.63.1.png",
         "description": "An advanced code editor with IntelliSense."
     },
-    {
+    "github-desktop": {
         "name": "GitHub Desktop",
-        "pkgName": "github-desktop",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/github-desktop.2.9.6.png",
+        "icoUrl": "github-desktop.2.9.6.png",
         "description": "The Official desktop GitHub client."
     },
-    {
+    "foobar2000": {
         "name": "Foobar2000",
-        "pkgName": "foobar2000",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/foobar2000.1.6.8.png",
+        "icoUrl": "foobar2000.1.6.8.png",
         "description": "An advanced lightweight audio player."
     },
-    {
+    "internet-download-manager": {
         "name": "Internet Download Manager",
-        "pkgName": "internet-download-manager",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/internet-download-manager.6.40.2.png",
+        "icoUrl": "internet-download-manager.6.40.2.png",
         "description": "Fully featured download manager."
     },
-    {
+    "simplewall": {
         "name": "Simplewall",
-        "pkgName": "simplewall",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/simplewall.3.6.1.png",
+        "icoUrl": "simplewall.3.6.1.png",
         "description": "A simple open source filewall solution."
     },
-    {
+    "taskbarx": {
         "name": "TaskbarX",
-        "pkgName": "taskbarx",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/taskbarx.1.7.3.0.png",
+        "icoUrl": "taskbarx.1.7.3.0.png",
         "description": "Customize taskbar icon position to the center + cool animations."
     },
-    {
+    "autohotkey": {
         "name": "AutoHotkey",
-        "pkgName": "autohotkey",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/autohotkey.1.1.33.10.png",
+        "icoUrl": "autohotkey.1.1.33.10.png",
         "description": " Compile and run .ahk automation script on Windows."
     },
-    {
+    "steam-client": {
         "name": "Steam",
-        "pkgName": "steam-client",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/steam-client.2.10.91.91.png",
+        "icoUrl": "steam-client.2.10.91.91.png",
         "description": "Because I play dota2 and csgo and nothing else."
     },
-    {
+    "powertoys": {
         "name": "Microsoft PowerToys",
-        "pkgName": "powertoys",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/powertoys.0.51.1.png",
+        "icoUrl": "powertoys.0.51.1.png",
         "description": "Windows system utilities by Microsoft. I use FancyZone feature a lot."
     },
-    {
+    "adoptopenjdkjre": {
         "name": "AdoptOpenJDK",
-        "pkgName": "adoptopenjdkjre",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/adoptopenjdk.16.0.1.900.png",
+        "icoUrl": "adoptopenjdk.16.0.1.900.png",
         "description": "Prebuilt OpenJDK binaries maintained by community."
     },
-    {
+    "everything": {
         "name": "Everything",
-        "pkgName": "everything",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/Everything.1.4.11015.png",
+        "icoUrl": "Everything.1.4.11015.png",
         "description": "A simple and fast file search utility."
     },
-    {
+    "everythingtoolbar": {
         "name": "Everything Toolbar",
-        "pkgName": "everythingtoolbar",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/Everything.1.4.11015.png",
+        "icoUrl": "Everything.1.4.11015.png",
         "description": "Everything integration for the Windows taskbar."
     },
-    {
+    "bleachbit": {
         "name": "BleachBit",
-        "pkgName": "bleachbit",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/bleachbit.4.4.2.svg",
+        "icoUrl": "bleachbit.4.4.2.svg",
         "description": " A good opensource alternative to CCleaner."
     },
-    {
+    "easy7zip": {
         "name": "Easy 7-Zip",
-        "pkgName": "easy7zip",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/7zip.21.6.svg",
+        "icoUrl": "7zip.21.6.svg",
         "description": "A fork of 7-Zip with a few additional quality-of-life features."
     },
-    {
+    "gpu-z": {
         "name": "GPU-Z",
-        "pkgName": "gpu-z",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/gpu-z.2.42.0.png",
+        "icoUrl": "gpu-z.2.42.0.png",
         "description": "Give you all information about your GPU."
     },
-    {
+    "rapr": {
         "name": "Driver Store Explorer [RAPR]",
-        "pkgName": "rapr",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/rapr.0.11.72.png",
+        "icoUrl": "rapr.0.11.72.png",
         "description": "Windows update managemetn tool for windows 10."
     },
-    {
+    "sysinternals": {
         "name": "Sysinternals",
-        "pkgName": "sysinternals",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/sysinternals.2021.12.16.png",
+        "icoUrl": "sysinternals.2021.12.16.png",
         "description": "A collection of ystem utilities build by Microsoft."
     },
-    {
+    "spacesniffer": {
         "name": "SpaceSniffer",
-        "pkgName": "spacesniffer",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/spacesniffer.1.3.0.2.png",
+        "icoUrl": "spacesniffer.1.3.0.2.png",
         "description": "Finds the files and folders using the most disk space on your hard drive."
     },
-    {
+    "ddu": {
         "name": "Display Driver Uninstaller",
-        "pkgName": "ddu",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/ddu.18.0.4.6.png",
+        "icoUrl": "ddu.18.0.4.6.png",
         "description": "A driver removal utility that can help you completely uninstall AMD/NVIDIA graphics card drivers and packages from your system."
     },
-    {
+    "sharex": {
         "name": "ShareX",
-        "pkgName": "sharex",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/sharex.13.6.1.png",
+        "icoUrl": "sharex.13.6.1.png",
         "description": "A very powerful open source screen capture program."
     },
-    {
+    "hwinfo": {
         "name": "HWiNFO",
-        "pkgName": "hwinfo",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/hwinfo.7.14.png",
+        "icoUrl": "hwinfo.7.14.png",
         "description": "A comprehensive hardware monitoring program."
     },
-    {
+    "windows-repair-toolbox": {
         "name": "Windows Repair Toolbox",
-        "pkgName": "windows-repair-toolbox",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/windows-repair-toolbox.3.0.2.5.png",
+        "icoUrl": "windows-repair-toolbox.3.0.2.5.png",
         "description": "(Almost) everything you need to repair Windows problems in one small handy tool."
     },
-    {
+    "rufus": {
         "name": "Rufus",
-        "pkgName": "rufus",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/rufus.3.17.png",
+        "icoUrl": "rufus.3.17.png",
         "description": "A simple tool for creating bootable USB."
     },
-    {
+    "ventoy": {
         "name": "Ventoy",
-        "pkgName": "ventoy",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/ventoy.1.0.62.png",
+        "icoUrl": "ventoy.1.0.62.png",
         "description": "A new way of making bootable USB drive."
     },
-    {
+    "dismplusplus": {
         "name": "Dism++",
-        "pkgName": "dismplusplus",
         "icoUrl": "https://community.chocolatey.org/Content/Images/packageDefaultIcon-50x50.png",
         "description": "A powerful tool for managing Windows."
     },
-    {
+    "sharpkeys": {
         "name": "SharpKeys",
-        "pkgName": "sharpkeys",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/sharpkeys.portable.3.9.3.png",
+        "icoUrl": "sharpkeys.portable.3.9.3.png",
         "description": "A simple tool to remap keys on Windows."
     },
-    {
+    "youtube-downloader": {
         "name": "YoutubeDownloader",
-        "pkgName": "youtube-downloader",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/youtube-downloader.1.3.1.png",
+        "icoUrl": "youtube-downloader.1.3.1.png",
         "description": "An excellent desktop frontend for youtube-dl."
     },
-    {
+    "fab": {
         "name": "Firewall App Blocker (Fab)",
-        "pkgName": "fab",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/fab.1.7.png",
+        "icoUrl": "fab.1.7.png",
         "description": "Easy-to-use firewall management sofware by Sordum."
     },
-    {
+    "occt": {
         "name": "OCCT",
-        "pkgName": "occt",
-        "icoUrl": "https://community.chocolatey.org/content/packageimages/occt.10.0.4.99.png",
+        "icoUrl": "occt.10.0.4.99.png",
         "description": "All-in-one hardware monitor for overclockers."
     }
-]
+}
