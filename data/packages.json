@@ -24,6 +24,16 @@
         "icoUrl": "github-desktop.2.9.6.png",
         "description": "The Official desktop GitHub client."
     },
+    "git": {
+        "name": "Git",
+        "icoUrl": "git.2.34.1.svg",
+        "description": "Git version control software for developers."
+    },
+    "python": {
+        "name": "Python",
+        "icoUrl": "git.2.34.1.svg",
+        "description": "Install current version of Python (Python3)"
+    },
     "foobar2000": {
         "name": "Foobar2000",
         "icoUrl": "foobar2000.1.6.8.png",
