@@ -8,7 +8,7 @@ const resetBtn = document.querySelector('.reset-btn');
 const copyBtn = document.querySelector(".copy-btn");
 const allBtn = document.querySelector(".all-btn");
 const form = document.querySelector(".package-form");
-let jsonPath = "./data/packages.json";
+let jsonPath = "https://api.github.com/gists/f79a94082c09c3d68007d498a68a7f11";
 const installCmd = `Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
@@ -109,6 +109,7 @@ function onPackageSelect(e) {
 async function fetchJson() {
     let response = await fetch(jsonPath);
     let jsonData = await response.json();
+    jsonData = JSON.parse(jsonData.files["packages_list.json"].content)
     return jsonData;
 }
 
