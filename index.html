@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" package="IE=edge">
+    <meta name="viewport" package="width=device-width, initial-scale=1.0">
+    <title>MySoftwareList</title>
+    <link rel="stylesheet" href="./styles/home.css" />
+
+
+
+</head>
+
+<body>
+    <header>
+        <h2 class="heading">MySoftwareList</h2>
+        <hr class="mid-heading">
+        <h3 class="sub-heading">Generate chocolatey install commands from the apps you've picked</h3>
+    </header>
+    <main>
+
+        <form class="package-form">
+            <div class="input-group">
+                <input class="commands-txt" type="text" readonly />
+                <button class="all-btn" type="reset">All</button>
+                <button class="copy-btn">Copy</button>
+                <button class="reset-btn" type="reset">Reset</button>
+
+            </div>
+
+            <div class="list">
+                <ul class="package-list"></ul>
+            </div>
+        </form>
+
+        <button class="btn--top"><a href="#top" style="color: white">⬆ Jump to Top</a></button>
+
+    </main>
+    <footer>
+        <p>View Source: <a href="http://github.com/AzimsTech/MySoftwareList" target="_blank">AzimsTech/MySoftwareList</a></p>
+        <p> | </p>
+        <p>Read More: <a href="https://azimstech.github.io/posts/2020-05-13-what-is-chocolatey/" target="_blank">What is Chocolatey?</a></p>
+    </footer>
+    <script src="./scripts/home.js"></script>
+
+</body>
+
+</html>
