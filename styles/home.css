@@ -205,3 +205,13 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Automatic dark mode */
+@media (prefers-color-scheme: dark) {
+  html, img, video, iframe, header, .btn {
+    filter: invert(1);
+  }
+  body {
+    background-color: #e7e5e4;
+  }
+}
