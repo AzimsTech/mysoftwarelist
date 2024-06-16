@@ -12,7 +12,7 @@ const yamlPath = "https://api.github.com/gists/f79a94082c09c3d68007d498a68a7f11"
 const installCmd =  `Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
-const iconSrc = "https://community.chocolatey.org/content/packageimages/";
+const iconSrc = "https://chocolatey.org/assets/images/nupkg/";
 
 
 /*
