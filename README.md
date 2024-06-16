@@ -5,7 +5,7 @@
 - [ ] Search.
 - [ ] Improve CSS.
 - [ ] Add your own item with Web Storage API.
-- [ ] Dark theme.
+- [x] Dark theme.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
 <div align="center">
