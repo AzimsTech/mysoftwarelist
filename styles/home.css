@@ -66,14 +66,15 @@ main {
   justify-content: center;
 }
 
-.input-group input {
-  margin-right: 1rem;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
+.input-group {
   color: #555;
   font-size: 0.95rem;
   border-radius: 2px;
   width: 100%;
+}
+
+.commands-txt {
+  width: 100%
 }
 
 /* Button Styles */
