@@ -77,6 +77,10 @@ main {
   width: 100%
 }
 
+.all-btn {
+  margin-left: 1rem;
+}
+
 /* Button Styles */
 .copy-btn,
 .reset-btn,
