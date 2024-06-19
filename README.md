@@ -9,15 +9,46 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
 <div align="center">
-	<a href="./images/screenshot.webp" ><img src="./images/preview.webp" alt="preview"></a>
+	<a href="./images/screenshot.webp" ><img src="./images/preview.webp" alt="preview">![GitHub last commit](https://img.shields.io/github/last-commit/AzimsTech/MySoftwareList)
+<div align="center">
+	<img src="https://azimstech.github.io/img/new-cover.png" alt="Awesome">
 	<br>
 	<br>
 	<p>
-		<a href="https://azimstech.github.io/2020-05-13-what-is-chocolatey/">My top picks of software I use everyday.</a>
+		<a href="https://www.azimstech.github.io">My top picks of software I use everyday.</a>
 	</p>
 	
 </div>
 
+
+<!--
+<p align="center">
+	<b>✨ Prelaunching the <a href="https://awesomeweekly.co">Awesome Weekly</a> newsletter! ✨</b>
+	<b> Vote it up on <a href="https://www.producthunt.com/posts/awesome-weekly">Product Hunt</a></b>
+</p>
+
+<br>
+-->
+
+<!--
+<p align="center">
+	<a href="awesome.md">Homepage</a>&nbsp;&nbsp;&nbsp;
+	<a href="contributing.md">List repo</a>&nbsp;&nbsp;&nbsp;
+	<a href="create-list.md">Creating a list</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://twitter.com/AzimsLives">Twitter</a>&nbsp;&nbsp;&nbsp;
+	<a href="https://www.github.com/AzimsTech">GitHub</a>
+	<br</p>
+	
+<br>
+	<p>
+		<a href="https://azimstech.github.io/2020-05-13-what-is-chocolatey/">My top picks of software I use everyday.</a-->
+
+<p align="center">
+	<sub>The list keeps growing as I discover more. Check out my <a href="https://azimstech.github.io">blog</a> and follow me on <a href="https://twitter.com/azimslives">Twitter</a>.</sub>
+	</p>
+	
+</div>
+<br>
 
 ## Want to save time? Do yourself a favor and install Chocolatey! <img src="https://cdn.rawgit.com/chocolatey/choco/14a627932c78c8baaba6bef5f749ebfa1957d28d/docs/logo/chocolateyicon.gif" height="43px">
 Chocolatey is a package manager for Windows. Having a package manager, makes installs of my most used software, that much easier. It is a great way to keep track of the software you have and which version of that software you are on.
@@ -143,3 +174,6 @@ choco install chocolateygui -y
 - [Awesome list](https://github.com/sindresorhus/awesome#readme) - by [@sindresorhus](https://github.com/sindresorhus)
 - [Userscripts](https://github.com/Ede123/userscripts) - by [@Ede123](https://twitter.com/Ede123)
 - [@CHEF-KOCH](https://github.com/CHEF-KOCH) - cool dude, you can follow him on [twitter](https://twitter.com/CKsTechNews).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2OTUzNTIzMjJdfQ==
+-->
