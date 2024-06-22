@@ -14,15 +14,22 @@ const installCmd =  `Set-ExecutionPolicy Bypass -Scope Process -Force;
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
 const iconSrc = "images/packageimages/";
 
+let yamlData = null;
 
 /*
     EVENT LISTENERS
 ----------------------*/
-document.addEventListener("DOMContentLoaded", () => fetchYaml(yamlPath));
-resetBtn.addEventListener('click', resetForm);
-copyBtn.addEventListener("click", updateClipboard);
-allBtn.addEventListener("click", selectAllPkg);
-form.addEventListener('change', onPackageSelect);
+document.addEventListener("DOMContentLoaded", () => {
+    fetchYaml(yamlPath).then(data => {
+        yamlData = data;
+        addListToHtml(packageList);
+    });
+
+    resetBtn.addEventListener('click', resetForm);
+    copyBtn.addEventListener("click", updateClipboard);
+    allBtn.addEventListener("click", selectAllPkg);
+    form.addEventListener('change', onPackageSelect);
+});
 
 /*
     FUNCTIONS
@@ -31,13 +38,9 @@ form.addEventListener('change', onPackageSelect);
 function resetForm(e) {
     e.preventDefault();
     form.reset(); //reset form
-    // reset status message 
-    spanSuccess.style.visiblity = 'hidden';
-
-    spanSuccess.innerText = "Generate chocolatey commands from the apps you've picked    ";
-
+    spanSuccess.style.visibility = 'hidden';
+    spanSuccess.innerText = "Generate chocolatey commands from the apps you've picked";
     commandsTxt.value = null;
-
 }
 
 // copy command from textbox to the clipboard
@@ -50,15 +53,11 @@ function updateClipboard(e) {
         commandsTxt.select();
         document.execCommand('copy');
         spanSuccess.innerText = "Copied to the clipboard! ✅";
-        spanSuccess.style.visiblity = 'initial';
-
+        spanSuccess.style.visibility = 'initial';
     } else {
-        //document.querySelector('.status').innerText = null;
         spanSuccess.innerText = "Please select any packages! ❎";
-        spanSuccess.style.visiblity = 'initial';
+        spanSuccess.style.visibility = 'initial';
     }
-
-
 }
 
 // select all item checkboxes
@@ -70,94 +69,69 @@ function selectAllPkg(e) {
         if (!node.checked) {
             node.click();
         }
-
     });
-
 }
 
 // generate chocolatey install commands from checkbox input
 function onPackageSelect(e) {
     e.preventDefault();
+
     let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
-    let checkedValue = null;
+    let checkedValue = Array.from(chxbox)
+                        .filter(i => i.checked)
+                        .map(i => i.value);
 
-    chxbox.forEach(() => {
-        checkedValue =
-            Array.from(chxbox)
-            .filter(i => i.checked)
-            .map(i => i.value);
+    spanSuccess.style.visibility = 'hidden';
 
-        spanSuccess.style.visiblity = 'hidden';
-
-        if (chxbox[0].checked) {
-            commandsTxt.value = installCmd;
-            if (checkedValue.length > 1) {
-                checkedValue.shift();
-                commandsTxt.value = installCmd + `choco install -y ${checkedValue.join(" ")}`;
-            }
-        } else {
-            commandsTxt.value = `choco install -y ${checkedValue.join(" ")}`;
+    if (chxbox[0].checked) {
+        commandsTxt.value = installCmd;
+        if (checkedValue.length > 1) {
+            checkedValue.shift();
+            commandsTxt.value = installCmd + `choco install -y ${checkedValue.join(" ")}`;
         }
-
-    });
-
-
-
+    } else {
+        commandsTxt.value = `choco install -y ${checkedValue.join(" ")}`;
+    }
 }
 
-
 // load packages data from a YAML file
-async function fetchYaml() {
+async function fetchYaml(yamlPath) {
     let response = await fetch(yamlPath);
-    let yamlData = await response.text();
-    yamlData = jsyaml.load(yamlData); // use jsyaml.load() instead of yaml.safeLoad()
-    yamlData = yamlData.files["packages_list.yaml"].content;
-    yamlData = jsyaml.load(yamlData);
-    return yamlData;
-  }
-  
-
-
+    let yamlText = await response.text();
+    let gistData = jsyaml.load(yamlText); // use jsyaml.load() instead of yaml.safeLoad()
+    let yamlContent = gistData.files["packages_list.yaml"].content;
+    return jsyaml.load(yamlContent);
+}
 
 // write a list from yamlData
 function addListToHtml(ul) {
-    fetchYaml().then(function(yamlData) {
-        for (i in yamlData) {
-            // LOCAL VARIABLES
-            let label = document.createElement("label");
-            let input = document.createElement("input");
-            let span = document.createElement("span");
-            let img = document.createElement("img");
-            let li = document.createElement("li");
+    for (let i in yamlData) {
+        let label = document.createElement("label");
+        let input = document.createElement("input");
+        let span = document.createElement("span");
+        let img = document.createElement("img");
+        let li = document.createElement("li");
 
-            // SET ATTRIBUTES
-            label.htmlFor = i // <label for={yamlData.pkgName}>
-            span.className = "package-list__label-text"
-            label.className = "package-list__label";
-            label.title = yamlData[i].description;
+        label.htmlFor = i;
+        span.className = "package-list__label-text";
+        label.className = "package-list__label";
+        label.title = yamlData[i].description;
 
-            input.type = "checkbox";
-            input.name = "package-item";
-            input.className = "label__checkbox";
-            input.value = i
-            input.id = i
-            img.src = iconSrc + yamlData[i].icoUrl;
-            img.className = "icoImg";
-            span.innerHTML = `<b>${yamlData[i].name}</b> - ${yamlData[i].description}`;
+        input.type = "checkbox";
+        input.name = "package-item";
+        input.className = "label__checkbox";
+        input.value = i;
+        input.id = i;
+        img.src = iconSrc + yamlData[i].icoUrl;
+        img.className = "icoImg";
+        span.innerHTML = `<b>${yamlData[i].name}</b> - ${yamlData[i].description}`;
 
+        li.className = "package-list__item";
 
-            li.className = "package-list__item";
-
-            // WRITE ELEMENTS
-            label.appendChild(input); // <div><label><input> <=
-            label.appendChild(img);
-            label.appendChild(span); // write yamlData.name after checkbox
-            li.appendChild(label); // <div><label> <=
-            ul.appendChild(li); // li --> label --> input, img
-
-        }
-    })
+        label.appendChild(input);
+        label.appendChild(img);
+        label.appendChild(span);
+        li.appendChild(label);
+        ul.appendChild(li);
+    }
 }
-
-// call function 
-addListToHtml(packageList);
