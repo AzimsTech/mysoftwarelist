@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function resetForm(e) {
     e.preventDefault();
     form.reset(); //reset form
-    spanSuccess.style.visibility = 'hidden';
+    spanSuccess.style.visibility = 'initial';
     spanSuccess.innerText = "Generate chocolatey commands from the apps you've picked";
     commandsTxt.value = null;
 }
@@ -81,7 +81,8 @@ function onPackageSelect(e) {
                         .filter(i => i.checked)
                         .map(i => i.value);
 
-    spanSuccess.style.visibility = 'hidden';
+    spanSuccess.innerText = "Press 'Copy' button when you ready.";
+    spanSuccess.style.visibility = 'initial';
 
     if (chxbox[0].checked) {
         commandsTxt.value = installCmd;
