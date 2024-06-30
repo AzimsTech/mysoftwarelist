@@ -1,42 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
 
-/* Typography and General Styles */
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-/* Header Styles */
-header {
-  padding: 1rem;
-  padding-bottom: 2em;
-  background: #234863;
-}
-
+/* Typography */
 b {
   font-weight: 600;
 }
 
+/* Header Styles */
+header {
+  background: #234863;
+  padding: 1rem 1rem 2em;
+}
+
 .heading {
-  text-align: center;
-  margin: 1rem;
-  margin-bottom: 0;
   color: #FFF;
-  text-shadow: 1px 1px 3px #000;
   font-size: 50px;
   font-weight: 800;
+  margin: 1rem 1rem 0;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
 }
 
 .sub-heading {
-  text-align: center;
-  margin-top: 0.7rem;
+  color: #FFF;
   font-size: 0.95rem;
   font-weight: 300;
-  color: #FFF;
+  margin-top: 0.7rem;
+  text-align: center;
   text-shadow: 1px 1px 3px #000;
 }
 
@@ -47,53 +46,43 @@ b {
 
 /* Main Content Styles */
 main {
-  padding: 1rem;
-  padding-top: 3rem;
   min-height: 75vh;
+  padding: 3rem 1rem 1rem;
 }
 
 .package-form {
-  width: 800px;
   margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
 }
 
 /* Input Group Styles */
 .input-group {
-  width: 800px;
-  margin: 0 auto;
-  margin-bottom: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.input-group {
   color: #555;
+  display: flex;
   font-size: 0.95rem;
-  border-radius: 2px;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
   width: 100%;
 }
 
 .commands-txt {
-  width: 100%
-}
-
-.all-btn {
-  margin-left: 1rem;
+  width: 100%;
 }
 
 /* Button Styles */
 .copy-btn,
 .reset-btn,
 .all-btn {
-  padding: 8px 18px;
-  cursor: pointer;
-  border-radius: 2px;
   background: #0e8a7e;
   border: 2px solid #024a43;
-  letter-spacing: 1px;
+  border-radius: 2px;
   color: white;
-  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
   margin-right: 1rem;
+  padding: 8px 18px;
+  text-transform: uppercase;
 }
 
 .copy-btn:hover,
@@ -102,32 +91,35 @@ main {
   background: #009688;
 }
 
+.all-btn {
+  margin-left: 1rem;
+}
+
 /* "Jump to Top" Button */
 .btn--top {
-  position: fixed;
-  bottom: 10px;
-  float: right;
-  right: 18.5%;
-  left: 77.25%;
-  height: 30px;
-  max-width: 90px;
-  width: 100%;
-  font-size: 12px;
   background: #0e8a7e;
   border: 2px solid #024a43;
-  padding: .5px;
   border-radius: 2px;
+  bottom: 10px;
+  font-size: 12px;
+  height: 30px;
+  left: 77.25%;
+  max-width: 90px;
+  padding: .5px;
+  position: fixed;
+  right: 18.5%;
+  width: 100%;
 }
 
 .btn--top > a {
-  text-decoration: none;
   display: inline-block;
-  position: relative;
-  z-index: 1;
-  padding: .5px;
-  margin: .5px;
   height: 100%;
+  margin: .5px;
+  padding: .5px;
+  position: relative;
+  text-decoration: none;
   width: 100%;
+  z-index: 1;
 }
 
 .btn--top:hover {
@@ -138,23 +130,22 @@ main {
 .package-list {
   display: block;
   list-style-type: none;
-  padding: 0;
   margin: 0;
   max-width: 100%;
+  padding: 0;
 }
 
 .package-list__item .package-list__label {
-  display: inline-block;
   background: #efefef;
-  cursor: pointer;
   border-radius: 2px;
-  width: 100%;
+  cursor: pointer;
+  display: inline-block;
   margin-bottom: 5px;
-  padding: 5px;
-  padding-left: 1rem;
-  white-space: nowrap;
   overflow: hidden;
+  padding: 5px 5px 5px 1rem;
   text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
 }
 
 .package-list__label:hover {
@@ -170,18 +161,14 @@ main {
 }
 
 .package-list__label-text {
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Form and Label Styles */
 label {
-  max-width: 100%;
   border: 0px solid #ccc;
-}
-
-.package-form {
   max-width: 100%;
 }
 
@@ -203,8 +190,8 @@ p {
 
 footer a {
   color: #0e8a7e;
-  text-decoration: none;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
 footer a:hover {
@@ -216,6 +203,7 @@ footer a:hover {
   html, img, video, iframe, header, .btn {
     filter: invert(1);
   }
+  
   body {
     background-color: #e7e5e4;
   }
