@@ -25,7 +25,7 @@ So installing Chocolatey is going to be what I do when set up windows for the fi
 	
 Run the following command in **Powershell**: 
 ~~~
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+irm "https://azimstech.github.io/mysoftwarelist/install.ps1" | iex
 ~~~
 
 To install Chocolatey GUI, run the following command:
