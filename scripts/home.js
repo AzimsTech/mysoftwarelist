@@ -1,18 +1,18 @@
 /*
     GLOBAL VARIABLES
 -------------------*/
-const packageList = document.querySelector(".package-list");
-const commandsTxt = document.querySelector(".commands-txt");
-const spanSuccess = document.querySelector('.sub-heading');
-const resetBtn = document.querySelector('.reset-btn');
-const copyBtn = document.querySelector(".copy-btn");
-const allBtn = document.querySelector(".all-btn");
-const form = document.querySelector(".package-form");
-const yamlPath = "https://api.github.com/gists/f79a94082c09c3d68007d498a68a7f11";
-const installCmd =  `Set-ExecutionPolicy Bypass -Scope Process -Force; 
+const packageListElement = document.querySelector(".package-list");
+const commandInputElement = document.querySelector(".command-input");
+const statusMessageElement = document.querySelector('.sub-heading');
+const resetButtonElement = document.querySelector('.reset-button');
+const copyButtonElement = document.querySelector(".copy-button");
+const selectAllButtonElement = document.querySelector(".select-all-button");
+const packageFormElement = document.querySelector(".package-form");
+const yamlFilePath = "https://api.github.com/gists/f79a94082c09c3d68007d498a68a7f11";
+const chocolateyInstallCommand =  `Set-ExecutionPolicy Bypass -Scope Process -Force; 
 [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; 
 iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1')); `;
-const iconSrc = "images/packageimages/";
+const iconSourcePath = "images/packageimages/";
 
 let yamlData = null;
 
@@ -20,15 +20,15 @@ let yamlData = null;
     EVENT LISTENERS
 ----------------------*/
 document.addEventListener("DOMContentLoaded", () => {
-    fetchYaml(yamlPath).then(data => {
+    fetchYamlData(yamlFilePath).then(data => {
         yamlData = data;
-        addListToHtml(packageList);
+        populatePackageList(packageListElement);
     });
 
-    resetBtn.addEventListener('click', resetForm);
-    copyBtn.addEventListener("click", updateClipboard);
-    allBtn.addEventListener("click", selectAllPkg);
-    form.addEventListener('change', onPackageSelect);
+    resetButtonElement.addEventListener('click', resetForm);
+    copyButtonElement.addEventListener("click", copyToClipboard);
+    selectAllButtonElement.addEventListener("click", selectAllPackages);
+    packageFormElement.addEventListener('change', onPackageSelectionChange);
 });
 
 /*
@@ -37,67 +37,67 @@ document.addEventListener("DOMContentLoaded", () => {
 // reset form & clear status message
 function resetForm(e) {
     e.preventDefault();
-    form.reset(); //reset form
-    spanSuccess.style.visibility = 'initial';
-    spanSuccess.innerText = "Generate chocolatey commands from the apps you've picked";
-    commandsTxt.value = null;
+    packageFormElement.reset(); //reset form
+    statusMessageElement.style.visibility = 'initial';
+    statusMessageElement.innerText = "Generate chocolatey commands from the apps you've picked";
+    commandInputElement.value = null;
 }
 
 // copy command from textbox to the clipboard
-function updateClipboard(e) {
+function copyToClipboard(e) {
     e.preventDefault();
 
-    let checkboxItem = document.querySelector('input[name="package-item"]:checked');
+    let selectedPackage = document.querySelector('input[name="package-item"]:checked');
 
-    if (checkboxItem) {
-        commandsTxt.select();
+    if (selectedPackage) {
+        commandInputElement.select();
         document.execCommand('copy');
-        spanSuccess.innerText = "Copied to the clipboard! ✅";
-        spanSuccess.style.visibility = 'initial';
+        statusMessageElement.innerText = "Copied to the clipboard! ✅";
+        statusMessageElement.style.visibility = 'initial';
     } else {
-        spanSuccess.innerText = "Please select any packages! ❎";
-        spanSuccess.style.visibility = 'initial';
+        statusMessageElement.innerText = "Please select any packages! ❎";
+        statusMessageElement.style.visibility = 'initial';
     }
 }
 
 // select all item checkboxes
-function selectAllPkg(e) {
+function selectAllPackages(e) {
     e.preventDefault();
 
-    let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
-    chxbox.forEach(node => {
-        if (!node.checked) {
-            node.click();
+    let checkboxes = document.querySelectorAll("input[type=checkbox][name=package-item]");
+    checkboxes.forEach(checkbox => {
+        if (!checkbox.checked) {
+            checkbox.click();
         }
     });
 }
 
 // generate chocolatey install commands from checkbox input
-function onPackageSelect(e) {
+function onPackageSelectionChange(e) {
     e.preventDefault();
 
-    let chxbox = document.querySelectorAll("input[type=checkbox][name=package-item]");
-    let checkedValue = Array.from(chxbox)
-                        .filter(i => i.checked)
-                        .map(i => i.value);
+    let checkboxes = document.querySelectorAll("input[type=checkbox][name=package-item]");
+    let selectedPackages = Array.from(checkboxes)
+                        .filter(checkbox => checkbox.checked)
+                        .map(checkbox => checkbox.value);
 
-    spanSuccess.innerText = "Press 'Copy' button when you ready.";
-    spanSuccess.style.visibility = 'initial';
+    statusMessageElement.innerText = "Press 'Copy' button when you are ready.";
+    statusMessageElement.style.visibility = 'initial';
 
-    if (chxbox[0].checked) {
-        commandsTxt.value = installCmd;
-        if (checkedValue.length > 1) {
-            checkedValue.shift();
-            commandsTxt.value = installCmd + `choco install -y ${checkedValue.join(" ")}`;
+    if (checkboxes[0].checked) {
+        commandInputElement.value = chocolateyInstallCommand;
+        if (selectedPackages.length > 1) {
+            selectedPackages.shift();
+            commandInputElement.value = chocolateyInstallCommand + `choco install -y ${selectedPackages.join(" ")}`;
         }
     } else {
-        commandsTxt.value = `choco install -y ${checkedValue.join(" ")}`;
+        commandInputElement.value = `choco install -y ${selectedPackages.join(" ")}`;
     }
 }
 
 // load packages data from a YAML file
-async function fetchYaml(yamlPath) {
-    let response = await fetch(yamlPath);
+async function fetchYamlData(yamlFilePath) {
+    let response = await fetch(yamlFilePath);
     let yamlText = await response.text();
     let gistData = jsyaml.load(yamlText); // use jsyaml.load() instead of yaml.safeLoad()
     let yamlContent = gistData.files["packages_list.yaml"].content;
@@ -105,34 +105,34 @@ async function fetchYaml(yamlPath) {
 }
 
 // write a list from yamlData
-function addListToHtml(ul) {
-    for (let i in yamlData) {
-        let label = document.createElement("label");
-        let input = document.createElement("input");
-        let span = document.createElement("span");
-        let img = document.createElement("img");
-        let li = document.createElement("li");
+function populatePackageList(ulElement) {
+    for (let packageName in yamlData) {
+        let labelElement = document.createElement("label");
+        let inputElement = document.createElement("input");
+        let spanElement = document.createElement("span");
+        let imgElement = document.createElement("img");
+        let listItemElement = document.createElement("li");
 
-        label.htmlFor = i;
-        span.className = "package-list__label-text";
-        label.className = "package-list__label";
-        label.title = yamlData[i].description;
+        labelElement.htmlFor = packageName;
+        spanElement.className = "package-list-label-text";
+        labelElement.className = "package-list-label";
+        labelElement.title = yamlData[packageName].description;
 
-        input.type = "checkbox";
-        input.name = "package-item";
-        input.className = "label__checkbox";
-        input.value = i;
-        input.id = i;
-        img.src = iconSrc + yamlData[i].icoUrl;
-        img.className = "icoImg";
-        span.innerHTML = `<b>${yamlData[i].name}</b> - ${yamlData[i].description}`;
+        inputElement.type = "checkbox";
+        inputElement.name = "package-item";
+        inputElement.className = "label-checkbox";
+        inputElement.value = packageName;
+        inputElement.id = packageName;
+        imgElement.src = iconSourcePath + yamlData[packageName].icoUrl;
+        imgElement.className = "icon-image";
+        spanElement.innerHTML = `<b>${yamlData[packageName].name}</b> - ${yamlData[packageName].description}`;
 
-        li.className = "package-list__item";
+        listItemElement.className = "package-list-item";
 
-        label.appendChild(input);
-        label.appendChild(img);
-        label.appendChild(span);
-        li.appendChild(label);
-        ul.appendChild(li);
+        labelElement.appendChild(inputElement);
+        labelElement.appendChild(imgElement);
+        labelElement.appendChild(spanElement);
+        listItemElement.appendChild(labelElement);
+        ulElement.appendChild(listItemElement);
     }
 }

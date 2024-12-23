@@ -39,7 +39,7 @@ header {
   text-shadow: 1px 1px 3px #000;
 }
 
-.mid-heading {
+.divider {
   font-size: 85%;
   max-width: 5%;
 }
@@ -66,14 +66,14 @@ main {
   width: 100%;
 }
 
-.commands-txt {
+.command-input {
   width: 100%;
 }
 
 /* Button Styles */
-.copy-btn,
-.reset-btn,
-.all-btn {
+.copy-button,
+.reset-button,
+.select-all-button {
   background: #0e8a7e;
   border: 2px solid #024a43;
   border-radius: 2px;
@@ -85,18 +85,18 @@ main {
   text-transform: uppercase;
 }
 
-.copy-btn:hover,
-.reset-btn:hover,
-.all-btn:hover {
+.copy-button:hover,
+.reset-button:hover,
+.select-all-button:hover {
   background: #009688;
 }
 
-.all-btn {
+.select-all-button {
   margin-left: 1rem;
 }
 
 /* "Jump to Top" Button */
-.btn--top {
+.top-button {
   background: #0e8a7e;
   border: 2px solid #024a43;
   border-radius: 2px;
@@ -111,7 +111,7 @@ main {
   width: 100%;
 }
 
-.btn--top > a {
+.top-button > a {
   display: inline-block;
   height: 100%;
   margin: .5px;
@@ -122,7 +122,7 @@ main {
   z-index: 1;
 }
 
-.btn--top:hover {
+.top-button:hover {
   background-color: #7dbbf1;
 }
 
@@ -135,7 +135,7 @@ main {
   padding: 0;
 }
 
-.package-list__item .package-list__label {
+.package-list-item .package-list-label {
   background: #efefef;
   border-radius: 2px;
   cursor: pointer;
@@ -148,19 +148,19 @@ main {
   width: 100%;
 }
 
-.package-list__label:hover {
+.package-list-label:hover {
   background: lightyellow;
 }
 
-.package-list__label:active {
+.package-list-label:active {
   outline: 2px solid #36556d;
 }
 
-.package-list__label > * {
+.package-list-label > * {
   margin-right: 5px;
 }
 
-.package-list__label-text {
+.package-list-label-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -172,7 +172,7 @@ label {
   max-width: 100%;
 }
 
-.icoImg {
+.icon-image {
   width: 16px;
 }
 
